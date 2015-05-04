@@ -1,0 +1,1452 @@
+﻿Log file open, 05/03/15 11:44:45
+LogInit:Display: Running engine without a game
+LogInit:Display: Loading recent project file: ../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/DM_FLAVIO.uproject
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.05.03-18.44.45:963][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.05.03-18.44.46:020][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.05.03-18.44.46:034][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.05.03-18.44.46:048][  0]LogInit: Object subsystem initialized
+[2015.05.03-18.44.46:050][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.05.03-18.44.46:050][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/RossFamily/Desktop/DM_FLAVIO/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.03-18.44.46:050][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.05.03-18.44.46:050][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/RossFamily/Desktop/DM_FLAVIO/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.03-18.44.46:050][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.05.03-18.44.46:050][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/RossFamily/Desktop/DM_FLAVIO/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.03-18.44.46:051][  0]LogInit: Selected Device Profile: [Windows]
+[2015.05.03-18.44.46:051][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.05.03-18.44.46:059][  0]LogInit: Computer: ROSSFAMILY-PC
+[2015.05.03-18.44.46:059][  0]LogInit: User: RossFamily
+[2015.05.03-18.44.46:059][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.05.03-18.44.46:059][  0]LogInit: High frequency timer resolution =2.597655 MHz
+[2015.05.03-18.44.46:059][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx) Virtual=131072.0GB
+[2015.05.03-18.44.46:059][  0]LogMemory: Platform Memory Stats for Windows
+[2015.05.03-18.44.46:059][  0]LogMemory: Process Physical Memory: 46.10 MB used, 46.10 MB peak
+[2015.05.03-18.44.46:059][  0]LogMemory: Process Virtual Memory: 26.52 MB used, 26.52 MB peak
+[2015.05.03-18.44.46:059][  0]LogMemory: Physical Memory: 2481.45 MB used, 16375.09 MB total
+[2015.05.03-18.44.46:059][  0]LogMemory: Virtual Memory: 292.97 MB used, 134217728.00 MB total
+[2015.05.03-18.44.46:104][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 560  (Feature Level 11_0)
+[2015.05.03-18.44.46:104][  0]LogD3D11RHI: Adapter has 1994MB of dedicated video memory, 0MB of dedicated system memory, and 2047MB of shared system memory, 1 output[s]
+[2015.05.03-18.44.46:105][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.05.03-18.44.46:105][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.05.03-18.44.46:105][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.05.03-18.44.46:108][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.05.03-18.44.46:116][  0]LogD3D11RHI: Async texture creation enabled
+[2015.05.03-18.44.46:183][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.05.03-18.44.46:263][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.05.03-18.44.46:263][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.05.03-18.44.46:369][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.05.03-18.44.49:484][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.03-18.44.50:080][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.03-18.44.50:156][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.05.03-18.44.50:208][  0]LogDerivedDataCache: Loaded boot cache 0.05s 39MB C:/Users/RossFamily/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.03-18.44.50:208][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/RossFamily/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.05.03-18.44.50:209][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.05.03-18.44.50:209][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.05.03-18.44.50:375][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.05.03-18.44.50:387][  0]LogDerivedDataCache: Using Local data cache path C:/Users/RossFamily/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.05.03-18.44.50:759][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.05.03-18.44.50:759][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.05.03-18.44.51:239][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.05.03-18.44.51:329][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.05.03-18.44.52:320][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.05.03-18.44.52:536][  0]SourceControl: Info Source control is disabled
+[2015.05.03-18.44.52:536][  0]SourceControl: Info Source control is disabled
+[2015.05.03-18.44.52:536][  0]SourceControl: Info Source control is disabled
+[2015.05.03-18.44.52:536][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.03-18.44.52:537][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.05.03-18.44.52:546][  0]SourceControl: Info Source control is disabled
+[2015.05.03-18.44.52:751][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.05.03-18.44.52:751][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.05.03-18.44.52:855][  0]LogEngine: Initializing Engine...
+[2015.05.03-18.44.55:061][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster X-Fi Xtreme Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.05.03-18.44.55:084][  0]LogInit: FAudioDevice initialized.
+[2015.05.03-18.44.55:126][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.05.03-18.44.55:150][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/RossFamily/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.03-18.44.55:159][  0]LogInit: Texture streaming: Enabled
+[2015.05.03-18.44.55:273][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.05.03-18.44.55:273][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.03-18.44.55:273][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.03-18.44.55:273][  0]LogAnalytics: SetUserId 117c93b446678ee264e382b49ca91207|14919f3d0643489ba6ad3048feb4b89e|0e66297c-8f74-4f75-8a68-8a33cd42c3b8
+[2015.05.03-18.44.55:273][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.05.03-18.44.55:300][  0]LogInit: Transaction tracking system initialized
+[2015.05.03-18.44.55:487][  0]BlueprintLog: New page: Editor Load
+[2015.05.03-18.44.55:524][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2015.05.03-18.44.55:524][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.05.03-18.44.56:130][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.03-18.44.56:544][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.03-18.44.56:796][  0]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/Mobile/CreatingSigningCertAndProvisionTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.03-18.44.56:801][  0]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/Mobile/SettingUpAndroidTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.03-18.44.56:840][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.05.03-18.44.56:840][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.05.03-18.44.56:847][  0]LogConsoleResponse:Display: 
+[2015.05.03-18.44.57:013][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.05.03-18.44.57:167][  0]SourceControl: Info Source control is disabled
+[2015.05.03-18.44.57:167][  0]Cmd: MAP LOAD FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.03-18.44.57:168][  0]LightingResults: New page: Lighting Build
+[2015.05.03-18.44.57:181][  0]MapCheck: New page: Map Check
+[2015.05.03-18.44.57:181][  0]LightingResults: New page: Lighting Build
+[2015.05.03-18.44.57:190][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000375D7F3B00
+[2015.05.03-18.44.58:649][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.03-18.44.58:650][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-18.44.58:651][  0]Cmd: MAP CHECKDEP
+[2015.05.03-18.44.58:651][  0]MapCheck: New page: Minimal_Default - May 3, 2015, 4:44:58 AM
+[2015.05.03-18.44.58:769][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 117.29ms to complete.
+[2015.05.03-18.44.58:769][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.602
+[2015.05.03-18.44.58:915][  0]LogCollectionManager: Loaded 0 collections in 0.001449 seconds
+[2015.05.03-18.44.58:928][  0]LogContentBrowser: Native class hierarchy populated in 0.0134 seconds. Added 1696 classes and 261 folders.
+[2015.05.03-18.44.58:963][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0027 seconds. Added 1 classes and 2 folders.
+[2015.05.03-18.44.59:057][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.05.03-18.44.59:058][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.05.03-18.44.59:065][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.05.03-18.44.59:091][  0]LogLoad: Full Startup: 15.10 seconds (BP compile: 0.45 seconds)
+[2015.05.03-18.44.59:129][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2015.05.03-18.44.59:275][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.05.03-18.44.59:407][  0]LogRenderer:Warning: Reallocating scene render targets to support 696x536 (Frame:3).
+[2015.05.03-18.44.59:848][  8]LogAssetRegistry: Asset discovery search completed in 4.3352 seconds
+[2015.05.03-18.48.44:507][935]BlueprintLog: New page: Compile MyCharacter
+[2015.05.03-18.48.44:595][935]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-18.48.44:638][935]BlueprintEditorCompileResults: Info [0240.65] Compile of MyCharacter successful! [in 130 ms]
+[2015.05.03-18.48.45:551][978]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.03-18.48.46:001][978]LogSavePackage: Save=436.438263ms
+[2015.05.03-18.48.46:001][978]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/MyCharacter45A7E7D2479F47112E713CA0DEEBA3EA.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.03-18.48.51:563][376]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-18.48.53:236][526]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-18.48.53:236][526]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 4:48:53 AM)
+[2015.05.03-18.48.53:242][526]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005324s)
+[2015.05.03-18.48.53:243][526]LogPlayLevel: PIE: World Init took: (0.000883s)
+[2015.05.03-18.48.53:243][526]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006460s)
+[2015.05.03-18.48.53:310][526]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-18.48.53:312][526]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-18.48.53:316][526]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-11.48.53
+[2015.05.03-18.48.53:317][526]LogWorld: Bringing up level for play took: 0.004345
+[2015.05.03-18.48.53:322][526]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.282
+[2015.05.03-18.49.53:228][975]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-18.49.53:248][975]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003776B67060
+[2015.05.03-18.50.25:825][512]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000377BC6A480
+[2015.05.03-18.50.32:548][264]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.05.03-18.51.43:680][ 43]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-18.51.44:484][115]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.05.03-18.52.01:101][962]Cmd: SELECT NONE
+[2015.05.03-18.52.01:468][  5]Cmd: SELECT NONE
+[2015.05.03-18.52.01:817][ 46]Cmd: SELECT NONE
+[2015.05.03-18.52.06:759][611]LogRenderer:Warning: Reallocating scene render targets to support 1120x576 (Frame:26804).
+[2015.05.03-18.53.01:953][622]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-18.53.03:400][719]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-18.53.03:401][719]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 4:53:03 AM)
+[2015.05.03-18.53.03:407][719]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005792s)
+[2015.05.03-18.53.03:408][719]LogPlayLevel: PIE: World Init took: (0.001005s)
+[2015.05.03-18.53.03:408][719]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007036s)
+[2015.05.03-18.53.03:449][719]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-18.53.03:451][719]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-18.53.03:455][719]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-11.53.03
+[2015.05.03-18.53.03:456][719]LogWorld: Bringing up level for play took: 0.004444
+[2015.05.03-18.53.03:461][719]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.42
+[2015.05.03-18.53.23:991][466]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-18.53.24:011][466]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003704146700
+[2015.05.03-18.55.01:028][480]LogRenderer:Warning: Reallocating scene render targets to support 1296x824 (Frame:31751).
+[2015.05.03-18.56.00:658][786]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-18.56.17:695][663]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.05.03-18.56.25:386][841]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.03-18.56.25:853][841]LogSavePackage: Save=453.041290ms
+[2015.05.03-18.56.25:853][841]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/MyCharacterE3D5E7404078D66A4A15B1A4F158B91E.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.03-18.56.26:201][861]BlueprintLog: New page: Compile MyCharacter
+[2015.05.03-18.56.26:313][861]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.05.03-18.56.26:347][861]BlueprintEditorCompileResults: Info [0702.36] Compile of MyCharacter successful! [in 144 ms]
+[2015.05.03-18.56.26:964][895]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.03-18.56.27:423][895]LogSavePackage: Save=450.644135ms
+[2015.05.03-18.56.27:423][895]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/MyCharacter3EDAF34641778BF15254F383CCB75622.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.03-18.56.37:173][430]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-18.56.39:519][570]BlueprintLog: New page: Compile MyCharacter
+[2015.05.03-18.56.39:635][570]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.05.03-18.56.39:665][570]BlueprintEditorCompileResults: Info [0715.68] Compile of MyCharacter successful! [in 146 ms]
+[2015.05.03-18.56.40:293][605]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.03-18.56.40:755][605]LogSavePackage: Save=452.147797ms
+[2015.05.03-18.56.40:755][605]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/MyCharacter28FEEF8E4D46BF02DEE562842FD5B0BF.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.03-18.56.47:359][152]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-18.56.49:788][332]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-18.56.49:789][332]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 4:56:49 AM)
+[2015.05.03-18.56.49:794][332]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005293s)
+[2015.05.03-18.56.49:795][332]LogPlayLevel: PIE: World Init took: (0.000699s)
+[2015.05.03-18.56.49:795][332]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006266s)
+[2015.05.03-18.56.49:850][332]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-18.56.49:853][332]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-18.56.49:857][332]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-11.56.49
+[2015.05.03-18.56.49:858][332]LogWorld: Bringing up level for play took: 0.004487
+[2015.05.03-18.56.49:862][332]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.822
+[2015.05.03-18.57.34:546][549]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-18.57.34:572][549]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000370145C540
+[2015.05.03-18.57.43:566][358]Cmd: SELECT NONE
+[2015.05.03-18.57.44:868][449]LogSavePackage: Save=84.931602ms
+[2015.05.03-18.57.44:868][449]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/Minimal_Default_Auto13C74194346D54C7C5AC92AB3DBFAAE5F.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2015.05.03-18.57.44:877][449]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.205
+[2015.05.03-18.57.44:877][449]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.205
+[2015.05.03-18.57.53:255][193]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2015.05.03-18.57.56:257][489]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.03-18.57.58:042][660]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.03-18.57.59:805][831]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.03-18.58.06:927][539]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.03-18.58.09:648][811]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.03-18.58.10:448][889]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-18.58.12:599][ 61]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-18.58.12:599][ 61]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 4:58:12 AM)
+[2015.05.03-18.58.12:605][ 61]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005507s)
+[2015.05.03-18.58.12:606][ 61]LogPlayLevel: PIE: World Init took: (0.000939s)
+[2015.05.03-18.58.12:606][ 61]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006673s)
+[2015.05.03-18.58.12:648][ 61]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-18.58.12:651][ 61]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-18.58.12:655][ 61]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-11.58.12
+[2015.05.03-18.58.12:656][ 61]LogWorld: Bringing up level for play took: 0.004729
+[2015.05.03-18.58.12:660][ 61]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.38
+[2015.05.03-18.58.15:745][342]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-18.58.15:767][342]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000370460E980
+[2015.05.03-18.58.19:881][741]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2015.05.03-18.58.26:244][373]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.03-18.58.29:961][750]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.03-18.58.33:438][102]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-18.58.35:660][269]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-18.58.35:660][269]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 4:58:35 AM)
+[2015.05.03-18.58.35:666][269]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005333s)
+[2015.05.03-18.58.35:667][269]LogPlayLevel: PIE: World Init took: (0.000885s)
+[2015.05.03-18.58.35:667][269]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006425s)
+[2015.05.03-18.58.35:709][269]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-18.58.35:712][269]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-18.58.35:716][269]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-11.58.35
+[2015.05.03-18.58.35:717][269]LogWorld: Bringing up level for play took: 0.004334
+[2015.05.03-18.58.35:721][269]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.68
+[2015.05.03-18.58.41:228][772]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-18.58.41:249][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000370A0A9A80
+[2015.05.03-18.59.03:657][410]SourceControl: Info Source control is disabled
+[2015.05.03-18.59.05:429][576]LogSourceControl:Error: P4ERROR: Invalid connection to server.
+[2015.05.03-18.59.05:429][576]LogSourceControl:Error: Connect to server failed; check $P4PORT.
+TCP connect to perforce:1666 failed.
+No such host is known. 
+
+[2015.05.03-18.59.06:683][680]LogSavePackage: Save=84.403816ms
+[2015.05.03-18.59.06:683][680]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/Minimal_Default2FC3D48D4FAE51C53851998CB80145CF.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.05.03-18.59.21:102][566]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-18.59.24:056][733]BlueprintLog: New page: Compile MyCharacter
+[2015.05.03-18.59.24:173][733]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.05.03-18.59.24:205][733]BlueprintEditorCompileResults: Info [0880.22] Compile of MyCharacter successful! [in 148 ms]
+[2015.05.03-18.59.24:810][768]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.03-18.59.25:261][768]LogSavePackage: Save=441.777283ms
+[2015.05.03-18.59.25:261][768]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/MyCharacter27712BB04639F42499C90390D7F0BC95.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.03-18.59.27:337][915]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-18.59.29:812][ 92]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-18.59.29:812][ 92]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 4:59:29 AM)
+[2015.05.03-18.59.29:817][ 92]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004823s)
+[2015.05.03-18.59.29:818][ 92]LogPlayLevel: PIE: World Init took: (0.001062s)
+[2015.05.03-18.59.29:819][ 92]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006115s)
+[2015.05.03-18.59.29:859][ 92]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-18.59.29:861][ 92]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-18.59.29:865][ 92]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-11.59.29
+[2015.05.03-18.59.29:866][ 92]LogWorld: Bringing up level for play took: 0.004338
+[2015.05.03-18.59.29:870][ 92]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.83
+[2015.05.03-18.59.35:258][581]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-18.59.35:278][581]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000037092744A0
+[2015.05.03-18.59.38:539][897]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.05.03-18.59.38:963][936]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.05.03-18.59.39:484][985]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2015.05.03-18.59.50:016][ 27]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.03-18.59.51:429][167]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.05.03-18.59.53:098][333]Cmd: SELECT NONE
+[2015.05.03-18.59.54:291][454]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2015.05.03-18.59.56:280][653]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.03-19.00.02:890][327]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.03-19.00.05:480][589]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.03-19.00.06:796][722]Cmd: SELECT NONE
+[2015.05.03-19.00.07:736][819]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2015.05.03-19.00.09:449][993]Cmd: SELECT NONE
+[2015.05.03-19.00.10:262][ 75]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.00.11:916][201]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.00.11:916][201]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:00:11 AM)
+[2015.05.03-19.00.11:921][201]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004865s)
+[2015.05.03-19.00.11:922][201]LogPlayLevel: PIE: World Init took: (0.000783s)
+[2015.05.03-19.00.11:922][201]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005858s)
+[2015.05.03-19.00.11:963][201]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.00.11:965][201]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.00.11:969][201]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.00.11
+[2015.05.03-19.00.11:970][201]LogWorld: Bringing up level for play took: 0.004368
+[2015.05.03-19.00.11:974][201]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.934
+[2015.05.03-19.00.13:589][346]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.00.13:609][346]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000370B9139C0
+[2015.05.03-19.00.14:365][420]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.00.15:088][478]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2015.05.03-19.00.19:507][920]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.03-19.00.20:431][ 11]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.00.22:678][193]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.00.22:679][193]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:00:22 AM)
+[2015.05.03-19.00.22:684][193]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005102s)
+[2015.05.03-19.00.22:685][193]LogPlayLevel: PIE: World Init took: (0.000872s)
+[2015.05.03-19.00.22:685][193]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006201s)
+[2015.05.03-19.00.22:721][193]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.00.22:724][193]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.00.22:728][193]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.00.22
+[2015.05.03-19.00.22:729][193]LogWorld: Bringing up level for play took: 0.004324
+[2015.05.03-19.00.22:733][193]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.307
+[2015.05.03-19.00.23:676][274]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.00.23:696][274]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000370BD4ADE0
+[2015.05.03-19.00.24:581][360]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2015.05.03-19.00.27:730][679]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.03-19.00.29:065][815]Cmd: TRANSACTION UNDO
+[2015.05.03-19.00.29:065][815]LogEditorTransaction: Undo Scale Actors
+[2015.05.03-19.00.29:405][830]Cmd: TRANSACTION UNDO
+[2015.05.03-19.00.29:405][830]LogEditorTransaction: Undo Clicking on Actors
+[2015.05.03-19.00.29:448][830]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.00.29:728][845]Cmd: TRANSACTION UNDO
+[2015.05.03-19.00.29:728][845]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2015.05.03-19.00.29:756][845]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.05.03-19.00.30:260][889]Cmd: TRANSACTION UNDO
+[2015.05.03-19.00.30:260][889]LogEditorTransaction: Undo Scale Actors
+[2015.05.03-19.00.30:289][889]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.05.03-19.00.30:631][922]Cmd: TRANSACTION UNDO
+[2015.05.03-19.00.30:631][922]LogEditorTransaction: Undo Clicking on Actors
+[2015.05.03-19.00.30:674][922]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.05.03-19.00.33:217][180]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.00.34:858][307]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.03-19.00.34:859][307]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.05.03-19.00.34:865][307]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.05.03-19.00.34:977][307]LogPlayLevel: PIE:  Blueprint regeneration took 118 ms (1 blueprints)
+[2015.05.03-19.00.34:977][307]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:00:34 AM)
+[2015.05.03-19.00.34:983][307]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005349s)
+[2015.05.03-19.00.34:984][307]LogPlayLevel: PIE: World Init took: (0.000979s)
+[2015.05.03-19.00.34:984][307]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006533s)
+[2015.05.03-19.00.35:027][307]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.00.35:029][307]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.00.35:033][307]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.00.35
+[2015.05.03-19.00.35:034][307]LogWorld: Bringing up level for play took: 0.004334
+[2015.05.03-19.00.35:038][307]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.003
+[2015.05.03-19.00.36:127][406]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.00.36:154][406]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000370BDCA020
+[2015.05.03-19.00.39:031][701]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.05.03-19.00.39:536][751]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2015.05.03-19.00.44:168][236]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.05.03-19.00.45:035][325]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2015.05.03-19.00.52:268][106]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.05.03-19.00.53:612][245]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2015.05.03-19.00.54:961][386]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.05.03-19.00.55:669][456]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2015.05.03-19.01.06:830][626]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.03-19.01.08:777][830]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.05.03-19.01.10:427][958]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.01.10:427][958]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:01:10 AM)
+[2015.05.03-19.01.10:433][958]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005321s)
+[2015.05.03-19.01.10:434][958]LogPlayLevel: PIE: World Init took: (0.000959s)
+[2015.05.03-19.01.10:434][958]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006497s)
+[2015.05.03-19.01.10:475][958]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.01.10:477][958]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.01.10:481][958]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.01.10
+[2015.05.03-19.01.10:482][958]LogWorld: Bringing up level for play took: 0.004346
+[2015.05.03-19.01.10:486][958]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.554
+[2015.05.03-19.01.15:432][421]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.01.15:452][421]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000370A476660
+[2015.05.03-19.01.16:059][481]Cmd: SELECT NONE
+[2015.05.03-19.01.16:931][575]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.01.18:935][761]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.01.20:074][846]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.01.20:074][846]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:01:20 AM)
+[2015.05.03-19.01.20:080][846]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004893s)
+[2015.05.03-19.01.20:081][846]LogPlayLevel: PIE: World Init took: (0.000875s)
+[2015.05.03-19.01.20:081][846]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005985s)
+[2015.05.03-19.01.20:120][846]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.01.20:123][846]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.01.20:127][846]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.01.20
+[2015.05.03-19.01.20:128][846]LogWorld: Bringing up level for play took: 0.004319
+[2015.05.03-19.01.20:132][846]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.908
+[2015.05.03-19.01.24:373][243]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.01.24:393][243]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000370AE83BA0
+[2015.05.03-19.02.14:097][219]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.02.16:061][321]BlueprintLog: New page: Compile MyCharacter
+[2015.05.03-19.02.16:172][321]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.05.03-19.02.16:203][321]BlueprintEditorCompileResults: Info [1052.21] Compile of MyCharacter successful! [in 141 ms]
+[2015.05.03-19.02.16:803][355]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.03-19.02.17:252][355]LogSavePackage: Save=435.133240ms
+[2015.05.03-19.02.17:253][355]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/MyCharacter8EF784474E30F8432D42A8AB2E85CE38.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.03-19.02.19:178][497]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.02.20:838][621]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.02.20:839][621]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:02:20 AM)
+[2015.05.03-19.02.20:844][621]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004613s)
+[2015.05.03-19.02.20:844][621]LogPlayLevel: PIE: World Init took: (0.000739s)
+[2015.05.03-19.02.20:845][621]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005574s)
+[2015.05.03-19.02.20:886][621]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.02.20:889][621]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.02.20:893][621]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.02.20
+[2015.05.03-19.02.20:894][621]LogWorld: Bringing up level for play took: 0.004340
+[2015.05.03-19.02.20:898][621]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.142
+[2015.05.03-19.02.38:705][285]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.02.38:724][285]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000376ECCBA60
+[2015.05.03-19.02.43:708][760]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.02.46:456][962]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.02.46:456][962]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:02:46 AM)
+[2015.05.03-19.02.46:461][962]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005179s)
+[2015.05.03-19.02.46:462][962]LogPlayLevel: PIE: World Init took: (0.000956s)
+[2015.05.03-19.02.46:463][962]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006374s)
+[2015.05.03-19.02.46:498][962]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.02.46:501][962]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.02.46:505][962]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.02.46
+[2015.05.03-19.02.46:506][962]LogWorld: Bringing up level for play took: 0.004335
+[2015.05.03-19.02.46:510][962]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.53
+[2015.05.03-19.02.47:948][ 91]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.02.47:969][ 91]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000377E4AB1A0
+[2015.05.03-19.03.38:498][883]BlueprintLog: New page: Compile MyCharacter
+[2015.05.03-19.03.38:581][883]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.03.38:611][883]BlueprintEditorCompileResults: Info [1134.62] Compile of MyCharacter successful! [in 113 ms]
+[2015.05.03-19.03.39:218][909]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.03-19.03.39:664][909]LogSavePackage: Save=436.064850ms
+[2015.05.03-19.03.39:664][909]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/MyCharacterF4ABB05C4D37E8FA557B228501BC3F32.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.03-19.03.42:257][ 61]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.05.03-19.03.43:962][178]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.03.43:962][178]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:03:43 AM)
+[2015.05.03-19.03.43:967][178]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004556s)
+[2015.05.03-19.03.43:968][178]LogPlayLevel: PIE: World Init took: (0.000744s)
+[2015.05.03-19.03.43:968][178]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005495s)
+[2015.05.03-19.03.44:006][178]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.03.44:009][178]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.03.44:013][178]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.03.44
+[2015.05.03-19.03.44:014][178]LogWorld: Bringing up level for play took: 0.004349
+[2015.05.03-19.03.44:018][178]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.977
+[2015.05.03-19.03.56:839][293]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.03.56:859][293]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003701C9B6A0
+[2015.05.03-19.03.57:163][308]Cmd: SELECT NONE
+[2015.05.03-19.03.57:719][354]Cmd: SELECT NONE
+[2015.05.03-19.03.58:256][405]Cmd: SELECT NONE
+[2015.05.03-19.03.58:712][448]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.04.01:620][668]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.04.01:620][668]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:04:01 AM)
+[2015.05.03-19.04.01:626][668]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005065s)
+[2015.05.03-19.04.01:627][668]LogPlayLevel: PIE: World Init took: (0.000910s)
+[2015.05.03-19.04.01:627][668]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006188s)
+[2015.05.03-19.04.01:666][668]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.04.01:668][668]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.04.01:672][668]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.04.01
+[2015.05.03-19.04.01:673][668]LogWorld: Bringing up level for play took: 0.004357
+[2015.05.03-19.04.01:677][668]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.637
+[2015.05.03-19.04.05:245][986]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.04.05:267][986]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003710431D00
+[2015.05.03-19.04.05:860][ 39]Cmd: SELECT NONE
+[2015.05.03-19.04.34:403][445]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.04.36:328][549]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.03-19.04.36:786][549]LogSavePackage: Save=448.683533ms
+[2015.05.03-19.04.36:786][549]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/MyCharacter2E9FEC494BD7AB3378C91FAC8B874D2F.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.03-19.04.37:092][567]BlueprintLog: New page: Compile MyCharacter
+[2015.05.03-19.04.37:182][567]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2015.05.03-19.04.37:214][567]BlueprintEditorCompileResults: Info [1193.23] Compile of MyCharacter successful! [in 122 ms]
+[2015.05.03-19.04.37:735][590]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.03-19.04.38:180][590]LogSavePackage: Save=436.265411ms
+[2015.05.03-19.04.38:180][590]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/MyCharacterB6C00D8B4FA3465E31CE39B6E5B00556.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.03-19.04.43:557][807]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.04.45:570][942]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.04.45:570][942]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:04:45 AM)
+[2015.05.03-19.04.45:576][942]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005036s)
+[2015.05.03-19.04.45:577][942]LogPlayLevel: PIE: World Init took: (0.000891s)
+[2015.05.03-19.04.45:577][942]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006146s)
+[2015.05.03-19.04.45:618][942]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.04.45:621][942]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.04.45:625][942]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.04.45
+[2015.05.03-19.04.45:626][942]LogWorld: Bringing up level for play took: 0.004347
+[2015.05.03-19.04.45:630][942]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.59
+[2015.05.03-19.04.54:681][770]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.04.54:701][770]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000370F2C9F80
+[2015.05.03-19.04.56:027][886]MapCheck: New page: Map Check
+[2015.05.03-19.04.56:121][886]Cmd: MAP REBUILD ALLVISIBLE
+[2015.05.03-19.04.56:123][886]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.05.03-19.04.56:319][886]LightingResults: New page: Lighting Build - May 3, 2015, 5:04:56 AM
+[2015.05.03-19.05.09:994][886]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.05.03-19.05.10:032][886]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.05.03-19.05.10:032][886]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.05.03-19.05.10:032][886]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.05.03-19.05.10:032][886]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.05.03-19.05.10:032][886]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.05.03-19.05.10:585][886]LogEditorBuildUtils: Build time 0:00:14
+[2015.05.03-19.05.10:588][886]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Copper, compiling. 
+[2015.05.03-19.05.10:637][886]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Copper, compiling. 
+[2015.05.03-19.05.10:744][887]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_39, compiling. 
+[2015.05.03-19.05.10:747][887]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_39, compiling. 
+[2015.05.03-19.05.10:755][887]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2015.05.03-19.05.10:764][887]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2015.05.03-19.05.14:759][957]Job is a success!
+[2015.05.03-19.05.14:949][958]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.05.03-19.05.14:967][958]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.05.03-19.05.14:973][958]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.05.03-19.05.14:980][958]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.05.03-19.05.15:020][958]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2015.05.03-19.05.15:023][958]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2015.05.03-19.05.15:414][958]Lightmass on ROSSFAMILY-PC: 1.31 sec total, 193 ms importing, 0 ms setup, 282 ms photons, 718 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 4.86 sec total, 480 ms processing.
+[2015.05.03-19.05.15:511][958]LogStaticLightingSystem: Illumination: 19.1 sec (109 ms encoding lightmaps)
+[2015.05.03-19.05.15:511][958]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2015.05.03-19.05.15:512][958]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 2 textures
+[2015.05.03-19.05.15:983][959]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.05.03-19.05.15:983][959]MapCheck: New page: Minimal_Default - May 3, 2015, 5:05:15 AM
+[2015.05.03-19.05.16:168][959]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 185.37ms to complete.
+[2015.05.03-19.05.18:459][111]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.05.18:460][111]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:05:18 AM)
+[2015.05.03-19.05.18:464][111]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003607s)
+[2015.05.03-19.05.18:465][111]LogPlayLevel: PIE: World Init took: (0.000907s)
+[2015.05.03-19.05.18:465][111]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004738s)
+[2015.05.03-19.05.18:501][111]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.05.18:504][111]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.05.18:508][111]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.05.18
+[2015.05.03-19.05.18:509][111]LogWorld: Bringing up level for play took: 0.004370
+[2015.05.03-19.05.18:513][111]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.527
+[2015.05.03-19.05.24:942][650]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.05.24:962][650]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003773639E40
+[2015.05.03-19.05.46:144][694]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.05.48:016][800]BlueprintLog: New page: Compile MyCharacter
+[2015.05.03-19.05.48:098][800]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2015.05.03-19.05.48:128][800]BlueprintEditorCompileResults: Info [1264.14] Compile of MyCharacter successful! [in 112 ms]
+[2015.05.03-19.05.48:761][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.03-19.05.49:193][830]LogSavePackage: Save=422.723175ms
+[2015.05.03-19.05.49:193][830]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/MyCharacter00750DF34F85D67CFAFC1AAB1EAC66C7.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.03-19.05.51:276][931]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.05.51:276][931]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:05:51 AM)
+[2015.05.03-19.05.51:299][931]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022913s)
+[2015.05.03-19.05.51:300][931]LogPlayLevel: PIE: World Init took: (0.000966s)
+[2015.05.03-19.05.51:301][931]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.024210s)
+[2015.05.03-19.05.51:343][931]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.05.51:345][931]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.05.51:349][931]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.05.51
+[2015.05.03-19.05.51:350][931]LogWorld: Bringing up level for play took: 0.004379
+[2015.05.03-19.05.51:354][931]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.314
+[2015.05.03-19.06.22:448][648]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.06.22:468][648]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003765771E40
+[2015.05.03-19.06.37:100][955]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.06.38:766][ 74]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.06.38:766][ 74]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:06:38 AM)
+[2015.05.03-19.06.38:772][ 74]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006291s)
+[2015.05.03-19.06.38:773][ 74]LogPlayLevel: PIE: World Init took: (0.000892s)
+[2015.05.03-19.06.38:774][ 74]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007406s)
+[2015.05.03-19.06.38:816][ 74]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.06.38:818][ 74]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.06.38:822][ 74]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.06.38
+[2015.05.03-19.06.38:823][ 74]LogWorld: Bringing up level for play took: 0.004576
+[2015.05.03-19.06.38:828][ 74]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.213
+[2015.05.03-19.06.44:758][611]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.06.44:779][611]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000037131C8680
+[2015.05.03-19.07.03:300][454]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.07.07:865][727]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2015.05.03-19.07.10:593][887]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2015.05.03-19.07.15:229][147]BlueprintLog: New page: Compile MyCharacter
+[2015.05.03-19.07.15:311][147]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2015.05.03-19.07.15:341][147]BlueprintEditorCompileResults: Info [1351.35] Compile of MyCharacter successful! [in 112 ms]
+[2015.05.03-19.07.15:901][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.03-19.07.16:333][169]LogSavePackage: Save=422.840973ms
+[2015.05.03-19.07.16:333][169]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/MyCharacter2827043A463AB69F6E2505A23425ECCB.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.03-19.07.18:291][296]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.07.20:063][413]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.07.20:063][413]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:07:20 AM)
+[2015.05.03-19.07.20:069][413]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005848s)
+[2015.05.03-19.07.20:070][413]LogPlayLevel: PIE: World Init took: (0.001004s)
+[2015.05.03-19.07.20:070][413]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007069s)
+[2015.05.03-19.07.20:112][413]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.07.20:115][413]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.07.20:119][413]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.07.20
+[2015.05.03-19.07.20:120][413]LogWorld: Bringing up level for play took: 0.004365
+[2015.05.03-19.07.20:124][413]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.916
+[2015.05.03-19.07.28:871][176]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.07.28:891][176]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003680BDB100
+[2015.05.03-19.07.33:843][491]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.07.45:875][170]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2015.05.03-19.07.46:626][214]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2015.05.03-19.07.47:477][264]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2015.05.03-19.07.49:303][348]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.03-19.07.49:735][348]LogSavePackage: Save=417.786804ms
+[2015.05.03-19.07.49:735][348]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/MyCharacterDE50D6C046356CBCD75CC9A0A1019CFB.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.03-19.07.50:033][365]BlueprintLog: New page: Compile MyCharacter
+[2015.05.03-19.07.50:116][365]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2015.05.03-19.07.50:150][365]BlueprintEditorCompileResults: Info [1386.16] Compile of MyCharacter successful! [in 116 ms]
+[2015.05.03-19.07.50:803][395]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.03-19.07.51:229][395]LogSavePackage: Save=417.018433ms
+[2015.05.03-19.07.51:229][395]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/MyCharacter707C5E774DCD1D85F990CF9FBB38FB20.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.03-19.07.52:722][498]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.07.56:069][741]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.07.56:069][741]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:07:56 AM)
+[2015.05.03-19.07.56:076][741]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005935s)
+[2015.05.03-19.07.56:077][741]LogPlayLevel: PIE: World Init took: (0.000947s)
+[2015.05.03-19.07.56:077][741]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007168s)
+[2015.05.03-19.07.56:117][741]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.07.56:120][741]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.07.56:124][741]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.07.56
+[2015.05.03-19.07.56:125][741]LogWorld: Bringing up level for play took: 0.004360
+[2015.05.03-19.07.56:129][741]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.911
+[2015.05.03-19.08.03:632][409]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.08.03:652][409]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003680EB7060
+[2015.05.03-19.08.09:124][759]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.08.11:191][869]BlueprintLog: New page: Compile MyCharacter
+[2015.05.03-19.08.11:273][869]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2015.05.03-19.08.11:304][869]BlueprintEditorCompileResults: Info [1407.32] Compile of MyCharacter successful! [in 112 ms]
+[2015.05.03-19.08.12:519][932]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.03-19.08.12:947][932]LogSavePackage: Save=418.720337ms
+[2015.05.03-19.08.12:948][932]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/MyCharacter50A8B64A403F9FB19D00E4849B23BB88.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.03-19.08.14:368][ 36]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.08.16:022][143]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.08.16:022][143]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:08:16 AM)
+[2015.05.03-19.08.16:029][143]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005822s)
+[2015.05.03-19.08.16:030][143]LogPlayLevel: PIE: World Init took: (0.000865s)
+[2015.05.03-19.08.16:030][143]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006912s)
+[2015.05.03-19.08.16:070][143]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.08.16:072][143]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.08.16:077][143]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.08.16
+[2015.05.03-19.08.16:077][143]LogWorld: Bringing up level for play took: 0.004543
+[2015.05.03-19.08.16:082][143]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.042
+[2015.05.03-19.08.24:942][956]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.08.24:963][956]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036849B6AC0
+[2015.05.03-19.08.50:956][290]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.05.03-19.08.52:880][433]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.08.52:880][433]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:08:52 AM)
+[2015.05.03-19.08.52:886][433]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005702s)
+[2015.05.03-19.08.52:887][433]LogPlayLevel: PIE: World Init took: (0.000907s)
+[2015.05.03-19.08.52:887][433]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006833s)
+[2015.05.03-19.08.52:928][433]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.08.52:930][433]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.08.52:934][433]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.08.52
+[2015.05.03-19.08.52:935][433]LogWorld: Bringing up level for play took: 0.004365
+[2015.05.03-19.08.52:939][433]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.101
+[2015.05.03-19.09.10:262][986]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.09.10:283][986]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036860FDDA0
+[2015.05.03-19.09.14:258][215]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.09.15:432][279]BlueprintLog: New page: Compile MyCharacter
+[2015.05.03-19.09.15:515][279]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2015.05.03-19.09.15:546][279]BlueprintEditorCompileResults: Info [1471.56] Compile of MyCharacter successful! [in 113 ms]
+[2015.05.03-19.09.15:988][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.03-19.09.16:424][297]LogSavePackage: Save=425.927216ms
+[2015.05.03-19.09.16:424][297]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/MyCharacterC1B4A7F14DCA81428959EB93F554345F.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.03-19.09.19:180][468]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.09.20:810][587]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.09.20:810][587]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:09:20 AM)
+[2015.05.03-19.09.20:816][587]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005929s)
+[2015.05.03-19.09.20:817][587]LogPlayLevel: PIE: World Init took: (0.000938s)
+[2015.05.03-19.09.20:817][587]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007094s)
+[2015.05.03-19.09.20:860][587]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.09.20:862][587]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.09.20:866][587]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.09.20
+[2015.05.03-19.09.20:867][587]LogWorld: Bringing up level for play took: 0.004323
+[2015.05.03-19.09.20:871][587]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.169
+[2015.05.03-19.09.26:437][ 99]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.09.26:459][ 99]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003687D82B60
+[2015.05.03-19.09.28:842][226]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.09.29:210][247]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2015.05.03-19.09.29:591][269]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2015.05.03-19.09.33:336][497]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2015.05.03-19.09.33:723][519]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2015.05.03-19.09.34:988][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.03-19.09.35:420][585]LogSavePackage: Save=422.433685ms
+[2015.05.03-19.09.35:420][585]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/MyCharacterE270FFEB447EA4FFC6326E9A49540C9D.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.03-19.09.35:881][612]BlueprintLog: New page: Compile MyCharacter
+[2015.05.03-19.09.35:963][612]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2015.05.03-19.09.35:995][612]BlueprintEditorCompileResults: Info [1492.01] Compile of MyCharacter successful! [in 114 ms]
+[2015.05.03-19.09.36:612][641]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.03-19.09.37:039][641]LogSavePackage: Save=417.864960ms
+[2015.05.03-19.09.37:039][641]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/MyCharacterE7D8BF8246A5143C382C47A0165E589E.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.03-19.09.39:071][796]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.09.41:038][939]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.09.41:038][939]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:09:41 AM)
+[2015.05.03-19.09.41:045][939]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005889s)
+[2015.05.03-19.09.41:046][939]LogPlayLevel: PIE: World Init took: (0.000903s)
+[2015.05.03-19.09.41:046][939]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007018s)
+[2015.05.03-19.09.41:088][939]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.09.41:091][939]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.09.41:095][939]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.09.41
+[2015.05.03-19.09.41:096][939]LogWorld: Bringing up level for play took: 0.004356
+[2015.05.03-19.09.41:100][939]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.06
+[2015.05.03-19.09.44:798][272]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.09.44:818][272]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036846A6480
+[2015.05.03-19.09.51:895][687]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.09.52:311][711]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
+[2015.05.03-19.09.52:797][739]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_26) Not registered. Aborting.
+[2015.05.03-19.09.54:442][826]BlueprintLog: New page: Compile MyCharacter
+[2015.05.03-19.09.54:527][826]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_27) Not registered. Aborting.
+[2015.05.03-19.09.54:558][826]BlueprintEditorCompileResults: Info [1510.57] Compile of MyCharacter successful! [in 116 ms]
+[2015.05.03-19.09.55:028][846]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.03-19.09.55:453][846]LogSavePackage: Save=415.975555ms
+[2015.05.03-19.09.55:453][846]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/MyCharacterE2F294044B5A5B175E8B6FA958C58F81.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.03-19.09.57:163][964]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.09.58:801][ 79]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.09.58:802][ 79]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:09:58 AM)
+[2015.05.03-19.09.58:808][ 79]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005920s)
+[2015.05.03-19.09.58:809][ 79]LogPlayLevel: PIE: World Init took: (0.000862s)
+[2015.05.03-19.09.58:809][ 79]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007048s)
+[2015.05.03-19.09.58:846][ 79]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.09.58:849][ 79]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.09.58:853][ 79]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.09.58
+[2015.05.03-19.09.58:854][ 79]LogWorld: Bringing up level for play took: 0.004698
+[2015.05.03-19.09.58:858][ 79]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.182
+[2015.05.03-19.10.03:037][426]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.10.03:058][426]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003686D5F9C0
+[2015.05.03-19.10.05:285][546]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.10.09:035][754]BlueprintLog: New page: Compile MyCharacter
+[2015.05.03-19.10.09:118][754]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_28) Not registered. Aborting.
+[2015.05.03-19.10.09:149][754]BlueprintEditorCompileResults: Info [1525.16] Compile of MyCharacter successful! [in 113 ms]
+[2015.05.03-19.10.09:653][775]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.03-19.10.10:091][775]LogSavePackage: Save=427.875153ms
+[2015.05.03-19.10.10:091][775]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/MyCharacter33B8F1EC46D6F2D3DEF60E9D4E6E2A01.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.03-19.10.11:778][889]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.10.13:452][  4]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.10.13:452][  4]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:10:13 AM)
+[2015.05.03-19.10.13:459][  4]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006479s)
+[2015.05.03-19.10.13:460][  4]LogPlayLevel: PIE: World Init took: (0.000875s)
+[2015.05.03-19.10.13:460][  4]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007584s)
+[2015.05.03-19.10.13:502][  4]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.10.13:505][  4]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.10.13:509][  4]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.10.13
+[2015.05.03-19.10.13:510][  4]LogWorld: Bringing up level for play took: 0.004343
+[2015.05.03-19.10.13:514][  4]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.474
+[2015.05.03-19.10.17:985][405]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.10.18:004][405]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036889C2200
+[2015.05.03-19.11.13:813][633]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.11.15:660][725]BlueprintLog: New page: Compile MyCharacter
+[2015.05.03-19.11.15:744][725]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_29) Not registered. Aborting.
+[2015.05.03-19.11.15:778][725]BlueprintEditorCompileResults: Info [1591.79] Compile of MyCharacter successful! [in 118 ms]
+[2015.05.03-19.11.17:167][799]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.05.03-19.11.17:167][799]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2015.05.03-19.11.17:855][831]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.03-19.11.18:280][831]LogSavePackage: Save=414.238983ms
+[2015.05.03-19.11.18:280][831]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/MyCharacter1EF6A1D142597473D5FE459F4C11E26A.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.03-19.11.19:435][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.03-19.11.19:520][892]LogSavePackage: Save=75.327942ms
+[2015.05.03-19.11.19:520][892]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/MyCharacter3806F1AD42280E87B876558EDC01C120.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.03-19.11.22:046][ 46]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.11.24:208][191]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.11.24:208][191]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:11:24 AM)
+[2015.05.03-19.11.24:214][191]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005415s)
+[2015.05.03-19.11.24:215][191]LogPlayLevel: PIE: World Init took: (0.000937s)
+[2015.05.03-19.11.24:215][191]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006580s)
+[2015.05.03-19.11.24:254][191]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.11.24:256][191]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.11.24:260][191]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.11.24
+[2015.05.03-19.11.24:261][191]LogWorld: Bringing up level for play took: 0.004366
+[2015.05.03-19.11.24:265][191]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.775
+[2015.05.03-19.11.36:515][306]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.11.36:535][306]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000037053CCFE0
+[2015.05.03-19.11.46:464][859]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.11.48:818][992]BlueprintLog: New page: Compile MyCharacter
+[2015.05.03-19.11.48:900][992]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_30) Not registered. Aborting.
+[2015.05.03-19.11.48:931][992]BlueprintEditorCompileResults: Info [1624.94] Compile of MyCharacter successful! [in 112 ms]
+[2015.05.03-19.11.49:495][ 16]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.03-19.11.49:939][ 16]LogSavePackage: Save=433.543335ms
+[2015.05.03-19.11.49:939][ 16]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/MyCharacter1224B08D4311DCFE70C5CBB917BDA757.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.03-19.11.51:692][144]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.11.53:067][241]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.11.53:067][241]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:11:53 AM)
+[2015.05.03-19.11.53:074][241]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006007s)
+[2015.05.03-19.11.53:075][241]LogPlayLevel: PIE: World Init took: (0.000886s)
+[2015.05.03-19.11.53:075][241]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007113s)
+[2015.05.03-19.11.53:111][241]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.11.53:114][241]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.11.53:118][241]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.11.53
+[2015.05.03-19.11.53:119][241]LogWorld: Bringing up level for play took: 0.004334
+[2015.05.03-19.11.53:123][241]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.083
+[2015.05.03-19.11.57:608][645]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.11.57:627][645]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000368B853740
+[2015.05.03-19.12.01:178][844]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.12.02:994][932]BlueprintLog: New page: Compile MyCharacter
+[2015.05.03-19.12.03:077][932]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_31) Not registered. Aborting.
+[2015.05.03-19.12.03:107][932]BlueprintEditorCompileResults: Info [1639.12] Compile of MyCharacter successful! [in 112 ms]
+[2015.05.03-19.12.05:885][ 57]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.12.06:183][ 57]LogSavePackage: Save=198.891693ms
+[2015.05.03-19.12.06:183][ 57]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/Minimal_Default_Auto26149399C4D237D04E8832E9E7A89369D.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap'
+[2015.05.03-19.12.06:191][ 57]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.307
+[2015.05.03-19.12.06:191][ 57]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.307
+[2015.05.03-19.12.06:226][ 57]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/MyCharacter] ([1] browsable assets)...
+[2015.05.03-19.12.06:294][ 57]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Character/MyCharacter.MyCharacter]
+[2015.05.03-19.12.06:294][ 57]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/MyCharacter]
+[2015.05.03-19.12.06:296][ 57]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/Autosaves/Game/Character/MyCharacter_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2015.05.03-19.12.06:818][ 57]LogSavePackage: Save=512.399841ms
+[2015.05.03-19.12.06:819][ 57]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/MyCharacter_Auto214930F7E4F77F6DBF2EB40B774EEC738.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/Autosaves/Game/Character/MyCharacter_Auto2.uasset'
+[2015.05.03-19.12.06:826][ 57]LogFileHelpers: Auto-saving content packages took 0.635
+[2015.05.03-19.12.10:446][264]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.12.32:882][572]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_32) Not registered. Aborting.
+[2015.05.03-19.12.34:304][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.03-19.12.34:738][643]LogSavePackage: Save=424.422028ms
+[2015.05.03-19.12.34:738][643]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/MyCharacterAC5226C143401F5A02419CBB03340AB5.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.03-19.12.35:048][661]BlueprintLog: New page: Compile MyCharacter
+[2015.05.03-19.12.35:132][661]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_33) Not registered. Aborting.
+[2015.05.03-19.12.35:165][661]BlueprintEditorCompileResults: Info [1671.18] Compile of MyCharacter successful! [in 116 ms]
+[2015.05.03-19.12.35:744][688]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.03-19.12.36:169][688]LogSavePackage: Save=415.614471ms
+[2015.05.03-19.12.36:169][688]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/MyCharacter55494C3440DBB8C7C28A6088A9CF72C0.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.03-19.12.39:341][867]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.12.40:974][983]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.12.40:974][983]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:12:40 AM)
+[2015.05.03-19.12.40:980][983]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005358s)
+[2015.05.03-19.12.40:981][983]LogPlayLevel: PIE: World Init took: (0.000892s)
+[2015.05.03-19.12.40:981][983]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006464s)
+[2015.05.03-19.12.41:020][983]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.12.41:023][983]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.12.41:027][983]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.12.41
+[2015.05.03-19.12.41:028][983]LogWorld: Bringing up level for play took: 0.004320
+[2015.05.03-19.12.41:032][983]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.009
+[2015.05.03-19.12.46:151][440]Set new viewmode: Wireframe
+[2015.05.03-19.12.46:727][494]Set new viewmode: Wireframe
+[2015.05.03-19.12.47:982][614]Set new viewmode: Wireframe
+[2015.05.03-19.12.48:214][636]Set new viewmode: Unlit
+[2015.05.03-19.12.49:336][742]Set new viewmode: Unlit
+[2015.05.03-19.12.49:532][761]Set new viewmode: Lit
+[2015.05.03-19.12.50:289][831]Error: view mode not recognized: detaillighting
+[2015.05.03-19.12.54:051][177]Set new viewmode: ShaderComplexity
+[2015.05.03-19.12.54:738][242]Set new viewmode: ShaderComplexity
+[2015.05.03-19.12.55:869][348]Set new viewmode: ShaderComplexity
+[2015.05.03-19.12.56:318][391]Error: view mode not recognized: detaillighting
+[2015.05.03-19.12.56:676][425]Set new viewmode: Lit
+[2015.05.03-19.12.57:356][488]Set new viewmode: Lit
+[2015.05.03-19.12.57:635][514]Set new viewmode: Unlit
+[2015.05.03-19.12.58:774][622]Set new viewmode: Wireframe
+[2015.05.03-19.13.06:264][329]Set new viewmode: Wireframe
+[2015.05.03-19.13.06:505][352]Set new viewmode: Unlit
+[2015.05.03-19.13.07:360][433]Set new viewmode: Lit
+[2015.05.03-19.13.08:772][543]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.13.08:792][543]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000368CBC7EC0
+[2015.05.03-19.13.36:105][ 31]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.14.27:869][167]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_34) Not registered. Aborting.
+[2015.05.03-19.14.32:715][490]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_35) Not registered. Aborting.
+[2015.05.03-19.14.33:191][516]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_36) Not registered. Aborting.
+[2015.05.03-19.14.45:161][337]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_37) Not registered. Aborting.
+[2015.05.03-19.14.50:837][687]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_38) Not registered. Aborting.
+[2015.05.03-19.14.54:147][906]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_39) Not registered. Aborting.
+[2015.05.03-19.15.12:094][ 17]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_40) Not registered. Aborting.
+[2015.05.03-19.15.14:507][153]BlueprintLog: New page: Compile MyCharacter
+[2015.05.03-19.15.14:592][153]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_41) Not registered. Aborting.
+[2015.05.03-19.15.14:624][153]BlueprintEditorCompileResults: Info [1830.64] Compile of MyCharacter successful! [in 117 ms]
+[2015.05.03-19.15.15:354][186]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.03-19.15.15:782][186]LogSavePackage: Save=413.929474ms
+[2015.05.03-19.15.15:782][186]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/MyCharacterE284721A46504803892A79A83CF8CBFE.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.03-19.15.18:608][372]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.15.21:348][572]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.15.21:348][572]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:15:21 AM)
+[2015.05.03-19.15.21:354][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006214s)
+[2015.05.03-19.15.21:356][572]LogPlayLevel: PIE: World Init took: (0.001063s)
+[2015.05.03-19.15.21:356][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007573s)
+[2015.05.03-19.15.21:393][572]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.15.21:396][572]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.15.21:400][572]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.15.21
+[2015.05.03-19.15.21:401][572]LogWorld: Bringing up level for play took: 0.004350
+[2015.05.03-19.15.21:405][572]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.365
+[2015.05.03-19.15.34:221][708]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.15.34:241][708]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003686AA1940
+[2015.05.03-19.15.41:825][166]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.15.44:889][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.03-19.15.45:326][331]LogSavePackage: Save=426.263306ms
+[2015.05.03-19.15.45:326][331]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/MyCharacter3225613A4F0588BA2973AD9B368E8221.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.03-19.15.45:800][359]BlueprintLog: New page: Compile MyCharacter
+[2015.05.03-19.15.45:883][359]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_42) Not registered. Aborting.
+[2015.05.03-19.15.45:919][359]BlueprintEditorCompileResults: Info [1861.93] Compile of MyCharacter successful! [in 119 ms]
+[2015.05.03-19.15.47:824][485]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.15.49:352][590]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.15.49:353][590]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:15:49 AM)
+[2015.05.03-19.15.49:359][590]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005925s)
+[2015.05.03-19.15.49:360][590]LogPlayLevel: PIE: World Init took: (0.000921s)
+[2015.05.03-19.15.49:360][590]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007074s)
+[2015.05.03-19.15.49:399][590]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.15.49:402][590]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.15.49:406][590]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.15.49
+[2015.05.03-19.15.49:407][590]LogWorld: Bringing up level for play took: 0.004348
+[2015.05.03-19.15.49:411][590]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.37
+[2015.05.03-19.15.51:929][813]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.15.51:949][813]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000368FAAF600
+[2015.05.03-19.15.56:457][ 81]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.16.03:877][482]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_43) Not registered. Aborting.
+[2015.05.03-19.16.04:586][523]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_44) Not registered. Aborting.
+[2015.05.03-19.16.04:888][540]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_45) Not registered. Aborting.
+[2015.05.03-19.16.06:108][609]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_46) Not registered. Aborting.
+[2015.05.03-19.16.07:476][688]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_47) Not registered. Aborting.
+[2015.05.03-19.16.08:171][728]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_48) Not registered. Aborting.
+[2015.05.03-19.16.08:590][752]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_49) Not registered. Aborting.
+[2015.05.03-19.16.09:818][818]BlueprintLog: New page: Compile MyCharacter
+[2015.05.03-19.16.09:903][818]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_50) Not registered. Aborting.
+[2015.05.03-19.16.09:935][818]BlueprintEditorCompileResults: Info [1885.95] Compile of MyCharacter successful! [in 117 ms]
+[2015.05.03-19.16.10:405][837]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.03-19.16.10:842][837]LogSavePackage: Save=427.003967ms
+[2015.05.03-19.16.10:842][837]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/MyCharacterDEA698C14FCEA2A31F826BB92FC6BADA.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.03-19.16.12:240][928]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.16.14:090][ 56]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.16.14:090][ 56]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:16:14 AM)
+[2015.05.03-19.16.14:096][ 56]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005688s)
+[2015.05.03-19.16.14:097][ 56]LogPlayLevel: PIE: World Init took: (0.000938s)
+[2015.05.03-19.16.14:098][ 56]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006855s)
+[2015.05.03-19.16.14:134][ 56]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.16.14:137][ 56]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.16.14:141][ 56]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.16.14
+[2015.05.03-19.16.14:142][ 56]LogWorld: Bringing up level for play took: 0.004365
+[2015.05.03-19.16.14:146][ 56]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.894
+[2015.05.03-19.16.18:681][465]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.16.18:701][465]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003680A56520
+[2015.05.03-19.16.21:335][692]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.16.22:779][797]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.16.22:779][797]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:16:22 AM)
+[2015.05.03-19.16.22:785][797]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005617s)
+[2015.05.03-19.16.22:786][797]LogPlayLevel: PIE: World Init took: (0.000950s)
+[2015.05.03-19.16.22:787][797]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006797s)
+[2015.05.03-19.16.22:824][797]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.16.22:827][797]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.16.22:831][797]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.16.22
+[2015.05.03-19.16.22:832][797]LogWorld: Bringing up level for play took: 0.004351
+[2015.05.03-19.16.22:836][797]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.204
+[2015.05.03-19.16.31:033][519]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.16.31:057][519]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003692FE7E20
+[2015.05.03-19.16.38:247][183]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.05.03-19.16.39:735][321]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.05.03-19.16.42:280][558]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.05.03-19.16.43:981][717]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.05.03-19.16.45:514][859]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.05.03-19.16.46:689][969]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.05.03-19.16.47:306][ 24]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.05.03-19.17.01:119][324]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.17.03:330][477]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.17.03:330][477]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:17:03 AM)
+[2015.05.03-19.17.03:336][477]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005807s)
+[2015.05.03-19.17.03:337][477]LogPlayLevel: PIE: World Init took: (0.000888s)
+[2015.05.03-19.17.03:337][477]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006919s)
+[2015.05.03-19.17.03:376][477]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.17.03:378][477]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.17.03:383][477]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.17.03
+[2015.05.03-19.17.03:383][477]LogWorld: Bringing up level for play took: 0.004475
+[2015.05.03-19.17.03:388][477]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.347
+[2015.05.03-19.17.12:807][285]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.17.12:828][285]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003689245DA0
+[2015.05.03-19.17.28:171][571]MapCheck: New page: Map Check
+[2015.05.03-19.17.28:189][571]Cmd: MAP REBUILD ALLVISIBLE
+[2015.05.03-19.17.28:189][571]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.05.03-19.17.28:263][571]LightingResults: New page: Lighting Build - May 3, 2015, 5:17:28 AM
+[2015.05.03-19.17.32:794][571]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.05.03-19.17.32:794][571]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.05.03-19.17.32:795][571]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.05.03-19.17.32:795][571]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.05.03-19.17.32:795][571]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.05.03-19.17.32:795][571]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.05.03-19.17.32:922][571]LogEditorBuildUtils: Build time 0:00:04
+[2015.05.03-19.17.34:283][650]Job is a success!
+[2015.05.03-19.17.34:373][651]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.05.03-19.17.34:388][651]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.05.03-19.17.34:393][651]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.05.03-19.17.34:401][651]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.05.03-19.17.34:419][651]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2015.05.03-19.17.34:422][651]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2015.05.03-19.17.34:461][651]Lightmass on ROSSFAMILY-PC: 972 ms total, 146 ms importing, 0 ms setup, 283 ms photons, 522 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 3.48 sec total, 470 ms processing.
+[2015.05.03-19.17.34:500][651]LogStaticLightingSystem: Illumination: 6.21 sec (57 ms encoding lightmaps)
+[2015.05.03-19.17.34:500][651]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2015.05.03-19.17.34:500][651]LogStaticLightingSystem: Shadowmap texture memory: 0.4 MB (0.4 MB streaming, 0.0 MB non-streaming), 4 textures
+[2015.05.03-19.17.34:831][652]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.05.03-19.17.34:831][652]MapCheck: New page: Minimal_Default - May 3, 2015, 5:17:34 AM
+[2015.05.03-19.17.34:960][652]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 129.576ms to complete.
+[2015.05.03-19.17.39:410][ 55]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.17.41:032][159]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.17.41:032][159]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:17:41 AM)
+[2015.05.03-19.17.41:036][159]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003659s)
+[2015.05.03-19.17.41:037][159]LogPlayLevel: PIE: World Init took: (0.000810s)
+[2015.05.03-19.17.41:037][159]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004682s)
+[2015.05.03-19.17.41:074][159]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.17.41:076][159]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.17.41:080][159]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.17.41
+[2015.05.03-19.17.41:081][159]LogWorld: Bringing up level for play took: 0.004325
+[2015.05.03-19.17.41:085][159]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.045
+[2015.05.03-19.18.41:017][485]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.19.46:906][534]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036855B07C0
+[2015.05.03-19.20.35:705][337]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.20.37:975][462]BlueprintLog: New page: Compile MyCharacter
+[2015.05.03-19.20.38:057][462]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_51) Not registered. Aborting.
+[2015.05.03-19.20.38:087][462]BlueprintEditorCompileResults: Info [2154.10] Compile of MyCharacter successful! [in 112 ms]
+[2015.05.03-19.20.38:688][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.03-19.20.39:119][489]LogSavePackage: Save=415.282623ms
+[2015.05.03-19.20.39:119][489]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/MyCharacterCD8D66C04C1D5B5FB4FF4F855A815DC3.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.03-19.21.02:787][898]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.21.11:001][485]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.21.11:002][485]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:21:11 AM)
+[2015.05.03-19.21.11:025][485]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023101s)
+[2015.05.03-19.21.11:026][485]LogPlayLevel: PIE: World Init took: (0.000987s)
+[2015.05.03-19.21.11:026][485]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.024329s)
+[2015.05.03-19.21.11:064][485]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.21.11:066][485]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.21.11:070][485]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.21.11
+[2015.05.03-19.21.11:071][485]LogWorld: Bringing up level for play took: 0.004341
+[2015.05.03-19.21.11:076][485]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.035
+[2015.05.03-19.22.10:994][992]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.23.13:509][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003694D66020
+[2015.05.03-19.23.14:127][783]Cmd: SELECT NONE
+[2015.05.03-19.23.14:999][866]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.05.03-19.23.16:850][  3]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.23.16:851][  3]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:23:16 AM)
+[2015.05.03-19.23.16:858][  3]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006751s)
+[2015.05.03-19.23.16:859][  3]LogPlayLevel: PIE: World Init took: (0.000915s)
+[2015.05.03-19.23.16:859][  3]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007904s)
+[2015.05.03-19.23.16:898][  3]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.23.16:901][  3]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.23.16:905][  3]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.23.16
+[2015.05.03-19.23.16:906][  3]LogWorld: Bringing up level for play took: 0.004362
+[2015.05.03-19.23.16:910][  3]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.13
+[2015.05.03-19.23.21:836][428]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.23.21:858][428]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003691EC6CA0
+[2015.05.03-19.23.32:495][ 38]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.23.32:765][ 53]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_52) Not registered. Aborting.
+[2015.05.03-19.23.33:017][ 67]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_53) Not registered. Aborting.
+[2015.05.03-19.23.34:464][140]BlueprintLog: New page: Compile MyCharacter
+[2015.05.03-19.23.34:546][140]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_54) Not registered. Aborting.
+[2015.05.03-19.23.34:577][140]BlueprintEditorCompileResults: Info [2330.59] Compile of MyCharacter successful! [in 113 ms]
+[2015.05.03-19.23.35:173][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.03-19.23.35:613][166]LogSavePackage: Save=430.253052ms
+[2015.05.03-19.23.35:613][166]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/MyCharacter8D5D15A84735274E9A593082C3BB23A4.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.03-19.23.37:707][304]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.23.40:716][530]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.23.40:716][530]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:23:40 AM)
+[2015.05.03-19.23.40:723][530]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006238s)
+[2015.05.03-19.23.40:724][530]LogPlayLevel: PIE: World Init took: (0.000865s)
+[2015.05.03-19.23.40:724][530]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007326s)
+[2015.05.03-19.23.40:766][530]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.23.40:768][530]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.23.40:772][530]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.23.40
+[2015.05.03-19.23.40:773][530]LogWorld: Bringing up level for play took: 0.004332
+[2015.05.03-19.23.40:777][530]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.263
+[2015.05.03-19.23.45:160][930]Set new viewmode: Wireframe
+[2015.05.03-19.23.46:090][ 19]Set new viewmode: Wireframe
+[2015.05.03-19.23.47:140][122]Set new viewmode: Unlit
+[2015.05.03-19.23.47:775][184]Set new viewmode: Lit
+[2015.05.03-19.23.50:009][394]Set new viewmode: Wireframe
+[2015.05.03-19.23.51:425][531]Set new viewmode: Wireframe
+[2015.05.03-19.23.51:718][560]Set new viewmode: Unlit
+[2015.05.03-19.23.52:096][597]Set new viewmode: Lit
+[2015.05.03-19.24.04:044][642]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.24.04:064][642]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000369265B9C0
+[2015.05.03-19.24.10:875][144]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.24.12:670][248]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_55) Not registered. Aborting.
+[2015.05.03-19.24.13:262][282]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_56) Not registered. Aborting.
+[2015.05.03-19.24.13:498][295]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_57) Not registered. Aborting.
+[2015.05.03-19.24.15:058][381]BlueprintLog: New page: Compile MyCharacter
+[2015.05.03-19.24.15:140][381]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_58) Not registered. Aborting.
+[2015.05.03-19.24.15:173][381]BlueprintEditorCompileResults: Info [2371.18] Compile of MyCharacter successful! [in 114 ms]
+[2015.05.03-19.24.16:839][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.03-19.24.17:267][467]LogSavePackage: Save=417.504242ms
+[2015.05.03-19.24.17:267][467]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/MyCharacterF28975B948AC7C2C72594FB6630C58F8.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.03-19.24.20:065][654]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.24.21:686][767]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.24.21:686][767]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:24:21 AM)
+[2015.05.03-19.24.21:692][767]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006092s)
+[2015.05.03-19.24.21:693][767]LogPlayLevel: PIE: World Init took: (0.000902s)
+[2015.05.03-19.24.21:693][767]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007202s)
+[2015.05.03-19.24.21:732][767]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.24.21:735][767]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.24.21:739][767]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.24.21
+[2015.05.03-19.24.21:740][767]LogWorld: Bringing up level for play took: 0.004345
+[2015.05.03-19.24.21:744][767]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.704
+[2015.05.03-19.24.39:167][338]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.24.39:187][338]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036960C5760
+[2015.05.03-19.24.48:882][215]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.05.03-19.25.06:964][322]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.25.09:061][436]BlueprintLog: New page: Compile MyCharacter
+[2015.05.03-19.25.09:143][436]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_59) Not registered. Aborting.
+[2015.05.03-19.25.09:174][436]BlueprintEditorCompileResults: Info [2425.19] Compile of MyCharacter successful! [in 112 ms]
+[2015.05.03-19.25.09:688][457]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.03-19.25.10:133][457]LogSavePackage: Save=434.225861ms
+[2015.05.03-19.25.10:133][457]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/MyCharacterC719C6E74C28A970A37B5FAC21EB5CAA.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.03-19.25.13:487][667]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.25.15:782][835]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.25.15:782][835]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:25:15 AM)
+[2015.05.03-19.25.15:789][835]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005906s)
+[2015.05.03-19.25.15:790][835]LogPlayLevel: PIE: World Init took: (0.000960s)
+[2015.05.03-19.25.15:790][835]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007120s)
+[2015.05.03-19.25.15:829][835]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.25.15:832][835]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.25.15:836][835]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.25.15
+[2015.05.03-19.25.15:837][835]LogWorld: Bringing up level for play took: 0.004320
+[2015.05.03-19.25.15:841][835]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.801
+[2015.05.03-19.25.19:419][159]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.25.19:439][159]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036975813A0
+[2015.05.03-19.26.01:727][598]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.26.03:351][688]BlueprintLog: New page: Compile MyCharacter
+[2015.05.03-19.26.03:462][688]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_60) Not registered. Aborting.
+[2015.05.03-19.26.03:493][688]BlueprintEditorCompileResults: Info [2479.50] Compile of MyCharacter successful! [in 141 ms]
+[2015.05.03-19.26.04:005][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.03-19.26.04:438][717]LogSavePackage: Save=418.462433ms
+[2015.05.03-19.26.04:438][717]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/MyCharacter7D4AA717447297160B171892343658A0.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.03-19.26.06:622][885]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.26.08:201][997]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.26.08:201][997]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:26:08 AM)
+[2015.05.03-19.26.08:208][997]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006188s)
+[2015.05.03-19.26.08:209][997]LogPlayLevel: PIE: World Init took: (0.000864s)
+[2015.05.03-19.26.08:209][997]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007278s)
+[2015.05.03-19.26.08:245][997]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.26.08:248][997]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.26.08:252][997]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.26.08
+[2015.05.03-19.26.08:253][997]LogWorld: Bringing up level for play took: 0.004657
+[2015.05.03-19.26.08:257][997]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.783
+[2015.05.03-19.26.22:463][328]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.26.22:482][328]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036948DB600
+[2015.05.03-19.26.41:211][461]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.26.42:822][551]BlueprintLog: New page: Compile MyCharacter
+[2015.05.03-19.26.42:906][551]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_61) Not registered. Aborting.
+[2015.05.03-19.26.42:936][551]BlueprintEditorCompileResults: Info [2518.95] Compile of MyCharacter successful! [in 113 ms]
+[2015.05.03-19.26.43:646][584]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.03-19.26.44:086][584]LogSavePackage: Save=427.994476ms
+[2015.05.03-19.26.44:086][584]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/MyCharacter64C3E55744B222A7FC5A0BB234EAF90D.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.03-19.26.46:112][729]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.26.47:935][857]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.26.47:936][857]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:26:47 AM)
+[2015.05.03-19.26.47:942][857]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006037s)
+[2015.05.03-19.26.47:943][857]LogPlayLevel: PIE: World Init took: (0.000936s)
+[2015.05.03-19.26.47:943][857]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007188s)
+[2015.05.03-19.26.47:981][857]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.26.47:983][857]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.26.47:987][857]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.26.47
+[2015.05.03-19.26.47:988][857]LogWorld: Bringing up level for play took: 0.004345
+[2015.05.03-19.26.47:992][857]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.952
+[2015.05.03-19.27.03:213][236]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.27.03:233][236]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003698EC2660
+[2015.05.03-19.27.28:858][735]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.27.29:901][794]BlueprintLog: New page: Compile MyCharacter
+[2015.05.03-19.27.29:985][794]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_62) Not registered. Aborting.
+[2015.05.03-19.27.30:015][794]BlueprintEditorCompileResults: Info [2566.03] Compile of MyCharacter successful! [in 113 ms]
+[2015.05.03-19.27.30:507][815]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.03-19.27.30:947][815]LogSavePackage: Save=429.549744ms
+[2015.05.03-19.27.30:947][815]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/MyCharacter3E0C3D384014EFA9A4F182B5FD91663D.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.03-19.27.32:277][909]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.27.33:804][ 12]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.27.33:804][ 12]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:27:33 AM)
+[2015.05.03-19.27.33:810][ 12]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006163s)
+[2015.05.03-19.27.33:811][ 12]LogPlayLevel: PIE: World Init took: (0.000911s)
+[2015.05.03-19.27.33:811][ 12]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007305s)
+[2015.05.03-19.27.33:847][ 12]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.27.33:850][ 12]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.27.33:854][ 12]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.27.33
+[2015.05.03-19.27.33:855][ 12]LogWorld: Bringing up level for play took: 0.004639
+[2015.05.03-19.27.33:859][ 12]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.819
+[2015.05.03-19.27.46:535][131]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.27.46:555][131]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036970432E0
+[2015.05.03-19.27.49:108][365]Cmd: UpdateLandscapeSetup
+[2015.05.03-19.27.50:762][521]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.27.52:407][628]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.27.52:407][628]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:27:52 AM)
+[2015.05.03-19.27.52:414][628]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006033s)
+[2015.05.03-19.27.52:415][628]LogPlayLevel: PIE: World Init took: (0.000888s)
+[2015.05.03-19.27.52:415][628]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007159s)
+[2015.05.03-19.27.52:458][628]LogWorld: Game class is 'GameMode'
+[2015.05.03-19.27.52:460][628]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.27.52:464][628]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.27.52
+[2015.05.03-19.27.52:465][628]LogWorld: Bringing up level for play took: 0.004353
+[2015.05.03-19.27.52:468][628]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.572
+[2015.05.03-19.27.57:138][ 55]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.27.57:160][ 55]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000369560DA80
+[2015.05.03-19.27.58:737][198]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.05.03-19.28.01:091][407]Cmd: UpdateLandscapeSetup
+[2015.05.03-19.28.01:905][483]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.28.03:811][614]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.28.03:811][614]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:28:03 AM)
+[2015.05.03-19.28.03:818][614]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006007s)
+[2015.05.03-19.28.03:819][614]LogPlayLevel: PIE: World Init took: (0.000900s)
+[2015.05.03-19.28.03:819][614]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007132s)
+[2015.05.03-19.28.03:856][614]LogWorld: Game class is 'GameMode'
+[2015.05.03-19.28.03:858][614]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.28.03:863][614]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.28.03
+[2015.05.03-19.28.03:864][614]LogWorld: Bringing up level for play took: 0.004370
+[2015.05.03-19.28.03:867][614]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.826
+[2015.05.03-19.28.11:852][342]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.28.11:874][342]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000369CA8B600
+[2015.05.03-19.28.14:567][573]Cmd: UpdateLandscapeSetup
+[2015.05.03-19.28.15:473][657]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.28.18:414][854]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.28.18:415][854]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:28:18 AM)
+[2015.05.03-19.28.18:421][854]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005971s)
+[2015.05.03-19.28.18:422][854]LogPlayLevel: PIE: World Init took: (0.000893s)
+[2015.05.03-19.28.18:422][854]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007116s)
+[2015.05.03-19.28.18:463][854]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.28.18:465][854]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.28.18:469][854]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.28.18
+[2015.05.03-19.28.18:470][854]LogWorld: Bringing up level for play took: 0.004398
+[2015.05.03-19.28.18:475][854]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.566
+[2015.05.03-19.28.27:236][646]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.28.27:258][646]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003699675620
+[2015.05.03-19.28.42:254][ 31]Cmd: SELECT NONE
+[2015.05.03-19.28.48:976][653]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2015.05.03-19.28.55:222][242]Cmd: SELECT NONE
+[2015.05.03-19.28.56:034][317]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.28.58:858][528]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.28.58:858][528]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:28:58 AM)
+[2015.05.03-19.28.58:865][528]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005868s)
+[2015.05.03-19.28.58:866][528]LogPlayLevel: PIE: World Init took: (0.000868s)
+[2015.05.03-19.28.58:866][528]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006986s)
+[2015.05.03-19.28.58:906][528]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.28.58:909][528]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.28.58:913][528]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.28.58
+[2015.05.03-19.28.58:914][528]LogWorld: Bringing up level for play took: 0.004332
+[2015.05.03-19.28.58:918][528]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.122
+[2015.05.03-19.29.05:174][ 94]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.29.05:195][ 94]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003699E49620
+[2015.05.03-19.29.09:803][519]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.29.12:237][687]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.29.12:237][687]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:29:12 AM)
+[2015.05.03-19.29.12:243][687]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006090s)
+[2015.05.03-19.29.12:244][687]LogPlayLevel: PIE: World Init took: (0.000887s)
+[2015.05.03-19.29.12:244][687]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007228s)
+[2015.05.03-19.29.12:282][687]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.29.12:284][687]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.29.12:288][687]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.29.12
+[2015.05.03-19.29.12:289][687]LogWorld: Bringing up level for play took: 0.004334
+[2015.05.03-19.29.12:293][687]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.747
+[2015.05.03-19.29.34:273][618]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.29.34:293][618]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000369E2BB740
+[2015.05.03-19.29.47:707][741]LogSavePackage: Save=202.541519ms
+[2015.05.03-19.29.47:707][741]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/Minimal_Default_Auto3EA31526A47D5B8FA5B0C3F978509ED5C.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap'
+[2015.05.03-19.29.47:714][741]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.318
+[2015.05.03-19.29.47:714][741]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.318
+[2015.05.03-19.29.54:362][327]MapCheck: New page: Map Check
+[2015.05.03-19.29.54:399][327]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2015.05.03-19.29.54:399][327]MapCheck: New page: Minimal_Default - May 3, 2015, 5:29:54 AM
+[2015.05.03-19.29.54:529][327]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 130.581ms to complete.
+[2015.05.03-19.29.54:552][327]LogEditorBuildUtils: Build time 0:00:00
+[2015.05.03-19.30.00:772][870]LogSavePackage: Save=200.749908ms
+[2015.05.03-19.30.00:772][870]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/Minimal_Default91C402BD4E608A664E432C914B900FF4.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.05.03-19.30.08:310][554]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.05.03-19.30.19:726][762]BlueprintLog: New page: Compile MyGame
+[2015.05.03-19.30.19:770][762]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.30.19:798][762]BlueprintEditorCompileResults: Info [2735.81] Compile of MyGame successful! [in 72 ms]
+[2015.05.03-19.30.20:303][815]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyGame" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyGame.uasset" SILENT=true
+[2015.05.03-19.30.20:337][815]LogSavePackage: Save=20.108135ms
+[2015.05.03-19.30.20:337][815]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/MyGame2488794A4C95E66741F076BA2D3F88C9.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyGame.uasset'
+[2015.05.03-19.30.30:128][383]BlueprintLog: New page: Compile MyCharacter
+[2015.05.03-19.30.30:209][383]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.30.30:238][383]BlueprintEditorCompileResults: Info [2746.25] Compile of MyCharacter successful! [in 110 ms]
+[2015.05.03-19.30.58:833][ 56]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.31.01:747][220]BlueprintLog: New page: Compile MyCharacter
+[2015.05.03-19.31.01:829][220]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_63) Not registered. Aborting.
+[2015.05.03-19.31.01:859][220]BlueprintEditorCompileResults: Info [2777.87] Compile of MyCharacter successful! [in 111 ms]
+[2015.05.03-19.31.02:481][248]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.03-19.31.02:910][248]LogSavePackage: Save=418.465881ms
+[2015.05.03-19.31.02:910][248]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/MyCharacter38C94DC948CBE07A82192B856C561FBD.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.03-19.31.12:388][518]BlueprintLog: New page: Compile MyCharacter
+[2015.05.03-19.31.12:472][518]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.31.12:502][518]BlueprintEditorCompileResults: Info [2788.51] Compile of MyCharacter successful! [in 113 ms]
+[2015.05.03-19.31.17:522][747]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.31.19:019][845]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.31.19:020][845]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:31:19 AM)
+[2015.05.03-19.31.19:026][845]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006045s)
+[2015.05.03-19.31.19:027][845]LogPlayLevel: PIE: World Init took: (0.001021s)
+[2015.05.03-19.31.19:027][845]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007302s)
+[2015.05.03-19.31.19:064][845]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.31.19:066][845]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.31.19:070][845]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.31.19
+[2015.05.03-19.31.19:071][845]LogWorld: Bringing up level for play took: 0.004340
+[2015.05.03-19.31.19:076][845]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.035
+[2015.05.03-19.31.28:512][684]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.31.28:532][684]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000369EBFA660
+[2015.05.03-19.31.40:898][348]BlueprintLog: New page: Compile MyCharacter
+[2015.05.03-19.31.40:980][348]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.31.41:011][348]BlueprintEditorCompileResults: Info [2817.02] Compile of MyCharacter successful! [in 112 ms]
+[2015.05.03-19.31.41:573][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.03-19.31.42:008][371]LogSavePackage: Save=418.982513ms
+[2015.05.03-19.31.42:008][371]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/MyCharacter8CB7DCCE4DD89552E714289D5D70537E.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.03-19.31.43:414][474]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.05.03-19.31.44:867][571]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.03-19.31.44:868][571]PIE: New page: PIE session: Minimal_Default (May 3, 2015, 5:31:44 AM)
+[2015.05.03-19.31.44:874][571]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005606s)
+[2015.05.03-19.31.44:875][571]LogPlayLevel: PIE: World Init took: (0.000716s)
+[2015.05.03-19.31.44:875][571]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006530s)
+[2015.05.03-19.31.44:923][571]LogWorld: Game class is 'MyGame_C'
+[2015.05.03-19.31.44:926][571]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-19.31.44:930][571]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.05.03-12.31.44
+[2015.05.03-19.31.44:931][571]LogWorld: Bringing up level for play took: 0.004350
+[2015.05.03-19.31.44:935][571]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.106
+[2015.05.03-19.31.52:179][217]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.31.52:199][217]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000370A0AB380
+[2015.05.03-19.31.52:569][248]Cmd: SELECT NONE
+[2015.05.03-19.32.28:118][349]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.05.03-19.32.39:984][725]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.03-19.32.41:064][726]Cmd: QUIT_EDITOR
+[2015.05.03-19.32.41:392][726]LogExit: Preparing to exit.
+[2015.05.03-19.32.42:557][726]LogExit: Editor shut down
+[2015.05.03-19.32.42:558][726]LogExit: Transaction tracking system shut down
+[2015.05.03-19.32.42:559][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000037651D2840
+[2015.05.03-19.32.42:560][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000037742E1F80
+[2015.05.03-19.32.42:560][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003774842DE0
+[2015.05.03-19.32.42:560][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003773735800
+[2015.05.03-19.32.42:560][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003776B66700
+[2015.05.03-19.32.42:560][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003776B99620
+[2015.05.03-19.32.42:562][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000037634A8720
+[2015.05.03-19.32.42:562][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000369F6E4900
+[2015.05.03-19.32.42:562][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000369E2B99E0
+[2015.05.03-19.32.42:639][726]LogExit: Object subsystem successfully closed.
+[2015.05.03-19.32.42:706][726]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (178)
+[2015.05.03-19.32.42:706][726]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.05.03-19.32.42:706][726]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.05.03-19.32.42:706][726]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.05.03-19.32.42:706][726]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.05.03-19.32.42:706][726]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.05.03-19.32.42:706][726]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.05.03-19.32.42:706][726]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.05.03-19.32.42:706][726]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.05.03-19.32.42:706][726]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.05.03-19.32.42:706][726]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.05.03-19.32.42:706][726]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.05.03-19.32.42:706][726]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.05.03-19.32.42:706][726]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.05.03-19.32.42:706][726]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.05.03-19.32.42:706][726]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.05.03-19.32.42:706][726]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.05.03-19.32.42:706][726]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.05.03-19.32.42:706][726]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.05.03-19.32.42:706][726]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.05.03-19.32.42:706][726]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.05.03-19.32.42:706][726]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.05.03-19.32.42:706][726]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.05.03-19.32.42:706][726]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.05.03-19.32.42:707][726]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.05.03-19.32.42:707][726]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.05.03-19.32.42:707][726]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.05.03-19.32.42:707][726]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.05.03-19.32.42:707][726]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.05.03-19.32.42:707][726]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.05.03-19.32.42:707][726]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.05.03-19.32.42:707][726]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.05.03-19.32.42:707][726]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.05.03-19.32.42:807][726]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.05.03-19.32.42:807][726]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.05.03-19.32.42:807][726]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.05.03-19.32.42:807][726]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.05.03-19.32.42:807][726]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.05.03-19.32.42:807][726]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.05.03-19.32.42:807][726]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.05.03-19.32.42:807][726]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.05.03-19.32.42:807][726]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.05.03-19.32.42:807][726]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.05.03-19.32.42:807][726]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.05.03-19.32.42:807][726]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.05.03-19.32.42:807][726]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.05.03-19.32.42:807][726]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.05.03-19.32.42:807][726]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.05.03-19.32.42:808][726]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.05.03-19.32.42:808][726]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.05.03-19.32.42:808][726]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.05.03-19.32.42:808][726]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.05.03-19.32.42:870][726]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.05.03-19.32.42:870][726]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.05.03-19.32.42:870][726]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.05.03-19.32.42:872][726]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.05.03-19.32.42:872][726]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.05.03-19.32.42:872][726]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.05.03-19.32.42:872][726]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.05.03-19.32.42:872][726]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.05.03-19.32.42:872][726]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.05.03-19.32.42:872][726]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.05.03-19.32.42:872][726]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.05.03-19.32.42:872][726]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.05.03-19.32.42:872][726]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.05.03-19.32.42:872][726]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.05.03-19.32.42:872][726]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.05.03-19.32.42:873][726]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.05.03-19.32.42:873][726]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.05.03-19.32.42:873][726]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.05.03-19.32.42:873][726]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.05.03-19.32.42:873][726]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.05.03-19.32.42:873][726]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.05.03-19.32.42:944][726]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.05.03-19.32.42:944][726]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.05.03-19.32.42:944][726]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.05.03-19.32.42:944][726]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.05.03-19.32.42:944][726]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.05.03-19.32.42:944][726]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.05.03-19.32.42:944][726]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.05.03-19.32.42:944][726]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.05.03-19.32.42:944][726]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.05.03-19.32.42:944][726]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.05.03-19.32.42:944][726]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.05.03-19.32.42:944][726]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.05.03-19.32.42:944][726]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.05.03-19.32.42:945][726]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.05.03-19.32.42:945][726]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.05.03-19.32.42:945][726]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.05.03-19.32.42:945][726]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.05.03-19.32.42:945][726]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.05.03-19.32.42:945][726]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.05.03-19.32.42:945][726]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.05.03-19.32.42:945][726]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.05.03-19.32.42:945][726]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.05.03-19.32.42:945][726]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.05.03-19.32.42:945][726]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.05.03-19.32.42:946][726]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.05.03-19.32.42:946][726]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.05.03-19.32.42:946][726]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.05.03-19.32.43:047][726]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.05.03-19.32.43:047][726]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.05.03-19.32.43:049][726]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.05.03-19.32.43:049][726]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.05.03-19.32.43:049][726]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.05.03-19.32.43:049][726]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.05.03-19.32.43:049][726]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.05.03-19.32.43:049][726]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.05.03-19.32.43:049][726]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.05.03-19.32.43:049][726]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.05.03-19.32.43:050][726]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.05.03-19.32.43:050][726]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.05.03-19.32.43:050][726]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.05.03-19.32.43:050][726]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.05.03-19.32.43:050][726]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.05.03-19.32.43:050][726]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.05.03-19.32.43:050][726]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.05.03-19.32.43:055][726]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.05.03-19.32.43:055][726]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.05.03-19.32.43:055][726]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.05.03-19.32.43:055][726]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.05.03-19.32.43:055][726]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.05.03-19.32.43:055][726]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.05.03-19.32.43:055][726]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.05.03-19.32.43:055][726]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.05.03-19.32.43:055][726]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.05.03-19.32.43:055][726]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.05.03-19.32.43:083][726]LogDerivedDataCache: Shutdown
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.05.03-19.32.43:083][726]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.05.03-19.32.43:089][726]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.05.03-19.32.43:089][726]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.05.03-19.32.43:089][726]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.05.03-19.32.43:089][726]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.05.03-19.32.43:089][726]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.05.03-19.32.43:089][726]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.05.03-19.32.43:089][726]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.05.03-19.32.43:089][726]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.05.03-19.32.43:089][726]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.05.03-19.32.43:090][726]LogExit: Exiting.
+[2015.05.03-19.32.43:096][726]Log file closed, 05/03/15 12:32:43

@@ -1,0 +1,443 @@
+﻿Log file open, 05/04/15 09:52:18
+LogInit:Display: Running engine for game: DM_FLAVIO
+LogInit: Version: 4.7.5-2503383+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr  6 2015 23:21:51
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.05.04-16.52.18:743][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.05.04-16.52.18:809][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.05.04-16.52.18:828][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.05.04-16.52.18:840][  0]LogInit: Object subsystem initialized
+[2015.05.04-16.52.18:842][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.05.04-16.52.18:842][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Flavio/Desktop/DM_FLAVIO/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.04-16.52.18:842][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.05.04-16.52.18:842][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Flavio/Desktop/DM_FLAVIO/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.04-16.52.18:842][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.05.04-16.52.18:842][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Flavio/Desktop/DM_FLAVIO/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.04-16.52.18:842][  0]LogInit: Selected Device Profile: [Windows]
+[2015.05.04-16.52.18:842][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.05.04-16.52.18:850][  0]LogInit: Computer: FLAVIO
+[2015.05.04-16.52.18:850][  0]LogInit: User: Flavio
+[2015.05.04-16.52.18:850][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.05.04-16.52.18:850][  0]LogInit: High frequency timer resolution =2.143576 MHz
+[2015.05.04-16.52.18:850][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2015.05.04-16.52.18:850][  0]LogMemory: Platform Memory Stats for Windows
+[2015.05.04-16.52.18:850][  0]LogMemory: Process Physical Memory: 46.88 MB used, 46.88 MB peak
+[2015.05.04-16.52.18:850][  0]LogMemory: Process Virtual Memory: 26.92 MB used, 26.92 MB peak
+[2015.05.04-16.52.18:850][  0]LogMemory: Physical Memory: 2197.09 MB used, 8086.16 MB total
+[2015.05.04-16.52.18:850][  0]LogMemory: Virtual Memory: 293.64 MB used, 134217728.00 MB total
+[2015.05.04-16.52.18:879][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 540M (Feature Level 11_0)
+[2015.05.04-16.52.18:879][  0]LogD3D11RHI: Adapter has 1996MB of dedicated video memory, 0MB of dedicated system memory, and 2047MB of shared system memory, 1 output[s]
+[2015.05.04-16.52.18:897][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 540M (Feature Level 11_0)
+[2015.05.04-16.52.18:897][  0]LogD3D11RHI: Adapter has 1996MB of dedicated video memory, 0MB of dedicated system memory, and 2047MB of shared system memory, 0 output[s]
+[2015.05.04-16.52.18:898][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.05.04-16.52.18:898][  0]LogD3D11RHI: Adapter has 1996MB of dedicated video memory, 0MB of dedicated system memory, and 2047MB of shared system memory, 0 output[s]
+[2015.05.04-16.52.18:898][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.05.04-16.52.18:903][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.05.04-16.52.18:913][  0]LogD3D11RHI: Async texture creation enabled
+[2015.05.04-16.52.18:983][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.05.04-16.52.19:054][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.05.04-16.52.19:055][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.05.04-16.52.19:146][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.05.04-16.52.21:738][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.04-16.52.22:360][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.04-16.52.22:430][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.05.04-16.52.22:472][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Flavio/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.04-16.52.22:472][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Flavio/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.05.04-16.52.22:472][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Flavio/Desktop/DM_FLAVIO/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.05.04-16.52.22:472][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.05.04-16.52.22:603][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.05.04-16.52.22:615][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Flavio/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.05.04-16.52.22:940][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.05.04-16.52.22:940][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.05.04-16.52.23:544][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.05.04-16.52.23:631][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.05.04-16.52.24:578][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.05.04-16.52.24:823][  0]SourceControl: Info Source control is disabled
+[2015.05.04-16.52.24:823][  0]SourceControl: Info Source control is disabled
+[2015.05.04-16.52.24:823][  0]SourceControl: Info Source control is disabled
+[2015.05.04-16.52.24:823][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.04-16.52.24:823][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.05.04-16.52.24:833][  0]SourceControl: Info Source control is disabled
+[2015.05.04-16.52.25:053][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.05.04-16.52.25:053][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.05.04-16.52.25:146][  0]LogEngine: Initializing Engine...
+[2015.05.04-16.52.27:360][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.05.04-16.52.27:380][  0]LogInit: FAudioDevice initialized.
+[2015.05.04-16.52.27:423][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.05.04-16.52.27:443][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Flavio/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.04-16.52.27:450][  0]LogInit: Texture streaming: Enabled
+[2015.05.04-16.52.27:555][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.05.04-16.52.27:555][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.5-2503383+++depot+UE4-Releases+4.7
+[2015.05.04-16.52.27:555][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.5-2503383+++depot+UE4-Releases+4.7
+[2015.05.04-16.52.27:555][  0]LogAnalytics: SetUserId 4e83ebe942835539779746b43e4f93f7|14919f3d0643489ba6ad3048feb4b89e|058e2274-dff7-494e-b518-f874ec975a59
+[2015.05.04-16.52.27:555][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.05.04-16.52.27:578][  0]LogInit: Transaction tracking system initialized
+[2015.05.04-16.52.27:767][  0]BlueprintLog: New page: Editor Load
+[2015.05.04-16.52.27:804][  0]LogAssetRegistry: FAssetRegistry took 0.0104 seconds to start up
+[2015.05.04-16.52.27:804][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.05.04-16.52.28:457][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.04-16.52.28:908][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.04-16.52.29:156][  0]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/Mobile/SettingUpAndroidTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.04-16.52.29:196][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.05.04-16.52.29:196][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.05.04-16.52.29:201][  0]LogConsoleResponse:Display: 
+[2015.05.04-16.52.29:349][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.05.04-16.52.29:506][  0]SourceControl: Info Source control is disabled
+[2015.05.04-16.52.29:506][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Flavio/Desktop/DM_FLAVIO/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.04-16.52.29:507][  0]LightingResults: New page: Lighting Build
+[2015.05.04-16.52.29:520][  0]MapCheck: New page: Map Check
+[2015.05.04-16.52.29:520][  0]LightingResults: New page: Lighting Build
+[2015.05.04-16.52.29:528][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B994713B00
+[2015.05.04-16.52.30:738][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.04-16.52.30:743][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.04-16.52.30:744][  0]Cmd: MAP CHECKDEP
+[2015.05.04-16.52.30:744][  0]MapCheck: New page: Minimal_Default - May 4, 2015, 2:52:30 AM
+[2015.05.04-16.52.30:838][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 94.12ms to complete.
+[2015.05.04-16.52.30:838][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.332
+[2015.05.04-16.52.30:967][  0]LogCollectionManager: Loaded 0 collections in 0.001717 seconds
+[2015.05.04-16.52.30:978][  0]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 1696 classes and 261 folders.
+[2015.05.04-16.52.31:053][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.05.04-16.52.31:054][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.05.04-16.52.31:062][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.05.04-16.52.31:088][  0]LogLoad: Full Startup: 14.26 seconds (BP compile: 0.39 seconds)
+[2015.05.04-16.52.31:132][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2015.05.04-16.52.31:264][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.05.04-16.52.31:416][  0]LogRenderer:Warning: Reallocating scene render targets to support 792x376 (Frame:3).
+[2015.05.04-16.52.32:175][  7]LogAssetRegistry: Asset discovery search completed in 4.3815 seconds
+[2015.05.04-16.52.42:366][351]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (floor)
+[2015.05.04-16.52.45:813][469]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.04-16.52.45:834][469]PIE: New page: PIE session: Minimal_Default (May 4, 2015, 2:52:45 AM)
+[2015.05.04-16.52.45:880][469]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045230s)
+[2015.05.04-16.52.45:882][469]LogPlayLevel: PIE: World Init took: (0.002602s)
+[2015.05.04-16.52.45:888][469]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.053081s)
+[2015.05.04-16.52.46:067][469]LogWorld: Game class is 'MyGame_C'
+[2015.05.04-16.52.46:234][469]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.04-16.52.46:246][469]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.05.04-09.52.46
+[2015.05.04-16.52.46:258][469]LogWorld: Bringing up level for play took: 0.022735
+[2015.05.04-16.52.46:481][469]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.133
+[2015.05.04-16.53.01:105][ 40]LogRenderer:Warning: Reallocating scene render targets to support 1080x376 (Frame:933).
+[2015.05.04-16.53.45:305][580]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.04-16.53.45:338][580]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B988F0A7A0
+[2015.05.04-16.54.09:129][ 54]BlueprintLog: New page: Compile MyCharacter
+[2015.05.04-16.54.09:283][ 54]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.04-16.54.09:328][ 54]BlueprintEditorCompileResults: Info [0112.50] Compile of MyCharacter successful! [in 198 ms]
+[2015.05.04-16.54.10:738][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/Flavio/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.04-16.54.11:202][ 80]LogSavePackage: Save=444.218445ms
+[2015.05.04-16.54.11:202][ 80]LogSavePackage: Moving '../../../../../../Users/Flavio/Desktop/DM_FLAVIO/Saved/MyCharacterA2F796824795F3CE90D5BBB6569B4286.tmp' to '../../../../../../Users/Flavio/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.04-16.54.21:463][314]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/Flavio/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.04-16.54.21:564][314]LogSavePackage: Save=69.020180ms
+[2015.05.04-16.54.21:564][314]LogSavePackage: Moving '../../../../../../Users/Flavio/Desktop/DM_FLAVIO/Saved/MyCharacterDAF6690443B9B57AEAEEBF9761452A11.tmp' to '../../../../../../Users/Flavio/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.04-16.54.26:481][425]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.04-16.54.26:481][425]PIE: New page: PIE session: Minimal_Default (May 4, 2015, 2:54:26 AM)
+[2015.05.04-16.54.26:487][425]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004867s)
+[2015.05.04-16.54.26:488][425]LogPlayLevel: PIE: World Init took: (0.001317s)
+[2015.05.04-16.54.26:488][425]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006484s)
+[2015.05.04-16.54.26:535][425]LogWorld: Game class is 'MyGame_C'
+[2015.05.04-16.54.26:537][425]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.04-16.54.26:541][425]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.05.04-09.54.26
+[2015.05.04-16.54.26:541][425]LogWorld: Bringing up level for play took: 0.003650
+[2015.05.04-16.54.26:545][425]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.804
+[2015.05.04-16.54.39:510][864]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.04-16.54.39:535][864]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B98E994360
+[2015.05.04-16.54.39:536][864]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B99F0EFCE0
+[2015.05.04-16.55.04:345][362]BlueprintLog: New page: Compile MyCharacter
+[2015.05.04-16.55.04:458][362]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.04-16.55.04:486][362]BlueprintEditorCompileResults: Info [0167.66] Compile of MyCharacter successful! [in 141 ms]
+[2015.05.04-16.55.05:551][382]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/Flavio/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.04-16.55.06:001][382]LogSavePackage: Save=433.589020ms
+[2015.05.04-16.55.06:001][382]LogSavePackage: Moving '../../../../../../Users/Flavio/Desktop/DM_FLAVIO/Saved/MyCharacterFDCC0F9B4DF01084B1430B9636C22AA3.tmp' to '../../../../../../Users/Flavio/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.04-16.55.12:612][543]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.04-16.55.12:613][543]PIE: New page: PIE session: Minimal_Default (May 4, 2015, 2:55:12 AM)
+[2015.05.04-16.55.12:626][543]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004980s)
+[2015.05.04-16.55.12:627][543]LogPlayLevel: PIE: World Init took: (0.001187s)
+[2015.05.04-16.55.12:627][543]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006452s)
+[2015.05.04-16.55.12:677][543]LogWorld: Game class is 'MyGame_C'
+[2015.05.04-16.55.12:679][543]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.04-16.55.12:683][543]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.05.04-09.55.12
+[2015.05.04-16.55.12:683][543]LogWorld: Bringing up level for play took: 0.003622
+[2015.05.04-16.55.12:687][543]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.661
+[2015.05.04-16.55.26:478][ 23]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.04-16.55.26:498][ 23]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B9932051C0
+[2015.05.04-16.55.26:498][ 23]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B98E9963E0
+[2015.05.04-16.55.39:651][296]BlueprintLog: New page: Compile MyCharacter
+[2015.05.04-16.55.39:790][296]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.04-16.55.39:818][296]BlueprintEditorCompileResults: Info [0202.99] Compile of MyCharacter successful! [in 166 ms]
+[2015.05.04-16.55.40:529][308]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/Flavio/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.04-16.55.40:985][308]LogSavePackage: Save=443.188385ms
+[2015.05.04-16.55.40:985][308]LogSavePackage: Moving '../../../../../../Users/Flavio/Desktop/DM_FLAVIO/Saved/MyCharacter1A9F766C4D9A235E214826B7109B86BD.tmp' to '../../../../../../Users/Flavio/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.04-16.56.13:716][ 63]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/Flavio/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.04-16.56.13:794][ 63]LogSavePackage: Save=63.931019ms
+[2015.05.04-16.56.13:794][ 63]LogSavePackage: Moving '../../../../../../Users/Flavio/Desktop/DM_FLAVIO/Saved/MyCharacter5BB5B9FA4F78BFE6B1AEE3B34CCDF03A.tmp' to '../../../../../../Users/Flavio/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.04-16.56.21:970][251]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (floor)
+[2015.05.04-16.56.24:807][315]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.04-16.56.24:808][315]PIE: New page: PIE session: Minimal_Default (May 4, 2015, 2:56:24 AM)
+[2015.05.04-16.56.24:816][315]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007236s)
+[2015.05.04-16.56.24:818][315]LogPlayLevel: PIE: World Init took: (0.002040s)
+[2015.05.04-16.56.24:818][315]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009560s)
+[2015.05.04-16.56.24:870][315]LogWorld: Game class is 'MyGame_C'
+[2015.05.04-16.56.24:873][315]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.04-16.56.24:878][315]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.05.04-09.56.24
+[2015.05.04-16.56.24:879][315]LogWorld: Bringing up level for play took: 0.004987
+[2015.05.04-16.56.24:884][315]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.464
+[2015.05.04-16.56.43:979][951]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.04-16.56.44:019][951]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B9A7EA2F20
+[2015.05.04-16.56.44:029][951]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B99BD28A40
+[2015.05.04-17.01.24:169][768]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/Flavio/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.04-17.01.24:277][768]LogSavePackage: Save=87.695511ms
+[2015.05.04-17.01.24:277][768]LogSavePackage: Moving '../../../../../../Users/Flavio/Desktop/DM_FLAVIO/Saved/MyCharacter15781A7F4D9B1761DE002399758F8516.tmp' to '../../../../../../Users/Flavio/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.04-17.01.25:233][788]BlueprintLog: New page: Compile MyCharacter
+[2015.05.04-17.01.25:353][788]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.04-17.01.25:384][788]BlueprintEditorCompileResults: Info [0548.56] Compile of MyCharacter successful! [in 150 ms]
+[2015.05.04-17.01.36:194][ 19]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.04-17.01.36:195][ 19]PIE: New page: PIE session: Minimal_Default (May 4, 2015, 3:01:36 AM)
+[2015.05.04-17.01.36:205][ 19]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006206s)
+[2015.05.04-17.01.36:207][ 19]LogPlayLevel: PIE: World Init took: (0.001667s)
+[2015.05.04-17.01.36:207][ 19]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008154s)
+[2015.05.04-17.01.36:252][ 19]LogWorld: Game class is 'MyGame_C'
+[2015.05.04-17.01.36:254][ 19]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.04-17.01.36:258][ 19]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.05.04-10.01.36
+[2015.05.04-17.01.36:258][ 19]LogWorld: Bringing up level for play took: 0.003643
+[2015.05.04-17.01.36:262][ 19]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.914
+[2015.05.04-17.02.07:743][ 82]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.04-17.02.07:762][ 82]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B992EB8540
+[2015.05.04-17.02.07:769][ 82]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B992EBB7E0
+[2015.05.04-17.04.46:680][785]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.04-17.04.47:221][795]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.05.04-17.04.48:097][813]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.05.04-17.04.48:996][828]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.05.04-17.04.49:021][828]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.025
+[2015.05.04-17.04.49:095][828]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/MyCharacter] ([1] browsable assets)...
+[2015.05.04-17.04.49:154][828]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Character/MyCharacter.MyCharacter]
+[2015.05.04-17.04.49:154][828]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/MyCharacter]
+[2015.05.04-17.04.49:157][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/Flavio/Desktop/DM_FLAVIO/Saved/Autosaves/Game/Character/MyCharacter_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.05.04-17.04.49:769][828]LogSavePackage: Save=594.291016ms
+[2015.05.04-17.04.49:770][828]LogSavePackage: Moving '../../../../../../Users/Flavio/Desktop/DM_FLAVIO/Saved/MyCharacter_Auto16B712A2F494C175D6CFEC59A1B067A32.tmp' to '../../../../../../Users/Flavio/Desktop/DM_FLAVIO/Saved/Autosaves/Game/Character/MyCharacter_Auto1.uasset'
+[2015.05.04-17.04.49:874][828]LogFileHelpers: Auto-saving content packages took 0.852
+[2015.05.04-17.04.51:573][864]BlueprintLog: New page: Compile MyCharacter
+[2015.05.04-17.04.51:687][864]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.04-17.04.51:713][864]BlueprintEditorCompileResults: Info [0754.89] Compile of MyCharacter successful! [in 139 ms]
+[2015.05.04-17.04.52:444][876]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/Flavio/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.04-17.04.52:931][876]LogSavePackage: Save=452.847473ms
+[2015.05.04-17.04.52:931][876]LogSavePackage: Moving '../../../../../../Users/Flavio/Desktop/DM_FLAVIO/Saved/MyCharacter28B27B37497A949CF91904B290100769.tmp' to '../../../../../../Users/Flavio/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.04-17.05.14:363][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyCharacter" FILE="../../../../../../Users/Flavio/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset" SILENT=true
+[2015.05.04-17.05.14:449][361]LogSavePackage: Save=67.029114ms
+[2015.05.04-17.05.14:449][361]LogSavePackage: Moving '../../../../../../Users/Flavio/Desktop/DM_FLAVIO/Saved/MyCharacter6FD40610483C9566B6C3F89252DE422F.tmp' to '../../../../../../Users/Flavio/Desktop/DM_FLAVIO/Content/Character/MyCharacter.uasset'
+[2015.05.04-17.05.15:020][374]BlueprintLog: New page: Compile MyCharacter
+[2015.05.04-17.05.15:132][374]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.04-17.05.15:161][374]BlueprintEditorCompileResults: Info [0778.33] Compile of MyCharacter successful! [in 140 ms]
+[2015.05.04-17.05.18:609][458]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.04-17.05.18:610][458]PIE: New page: PIE session: Minimal_Default (May 4, 2015, 3:05:18 AM)
+[2015.05.04-17.05.18:628][458]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009788s)
+[2015.05.04-17.05.18:629][458]LogPlayLevel: PIE: World Init took: (0.000918s)
+[2015.05.04-17.05.18:629][458]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.010992s)
+[2015.05.04-17.05.18:675][458]LogWorld: Game class is 'MyGame_C'
+[2015.05.04-17.05.18:677][458]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.04-17.05.18:681][458]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.05.04-10.05.18
+[2015.05.04-17.05.18:681][458]LogWorld: Bringing up level for play took: 0.003643
+[2015.05.04-17.05.18:685][458]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.664
+[2015.05.04-17.05.58:713][800]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.04-17.05.58:751][800]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B9A6CA5EE0
+[2015.05.04-17.06.00:660][847]LogSavePackage: Save=87.101646ms
+[2015.05.04-17.06.00:660][847]LogSavePackage: Moving '../../../../../../Users/Flavio/Desktop/DM_FLAVIO/Saved/Minimal_Default7D30E72F48047F4E6A91C9BFF0638036.tmp' to '../../../../../../Users/Flavio/Desktop/DM_FLAVIO/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.05.04-17.08.06:848][351]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.04-17.08.06:870][351]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B9A3ECC2C0
+[2015.05.04-17.08.07:497][352]Cmd: QUIT_EDITOR
+[2015.05.04-17.08.07:763][352]LogExit: Preparing to exit.
+[2015.05.04-17.08.08:166][352]LogExit: Editor shut down
+[2015.05.04-17.08.08:166][352]LogExit: Transaction tracking system shut down
+[2015.05.04-17.08.08:168][352]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B98DA098A0
+[2015.05.04-17.08.08:168][352]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B99A7D2660
+[2015.05.04-17.08.08:168][352]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B99BF17420
+[2015.05.04-17.08.08:168][352]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B99C7472E0
+[2015.05.04-17.08.08:168][352]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B99C744C20
+[2015.05.04-17.08.08:168][352]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B9948BCC20
+[2015.05.04-17.08.08:169][352]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B99A8FDB20
+[2015.05.04-17.08.08:241][352]LogExit: Object subsystem successfully closed.
+[2015.05.04-17.08.08:308][352]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (177)
+[2015.05.04-17.08.08:308][352]LogModuleManager: Shutting down and abandoning module CrashTracker (176)
+[2015.05.04-17.08.08:308][352]LogModuleManager: Shutting down and abandoning module SuperSearch (175)
+[2015.05.04-17.08.08:308][352]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.05.04-17.08.08:308][352]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.05.04-17.08.08:308][352]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.05.04-17.08.08:308][352]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.05.04-17.08.08:308][352]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.05.04-17.08.08:308][352]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.05.04-17.08.08:308][352]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.05.04-17.08.08:308][352]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.05.04-17.08.08:308][352]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.05.04-17.08.08:308][352]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.05.04-17.08.08:308][352]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.05.04-17.08.08:308][352]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.05.04-17.08.08:308][352]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.05.04-17.08.08:308][352]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.05.04-17.08.08:308][352]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.05.04-17.08.08:308][352]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.05.04-17.08.08:309][352]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.05.04-17.08.08:309][352]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.05.04-17.08.08:309][352]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.05.04-17.08.08:309][352]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.05.04-17.08.08:309][352]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.05.04-17.08.08:309][352]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.05.04-17.08.08:309][352]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.05.04-17.08.08:309][352]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.05.04-17.08.08:309][352]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.05.04-17.08.08:309][352]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.05.04-17.08.08:309][352]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.05.04-17.08.08:309][352]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.05.04-17.08.08:309][352]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.05.04-17.08.09:291][352]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.05.04-17.08.09:291][352]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.05.04-17.08.09:291][352]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.05.04-17.08.09:291][352]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.05.04-17.08.09:291][352]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.05.04-17.08.09:291][352]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.05.04-17.08.09:291][352]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.05.04-17.08.09:291][352]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.05.04-17.08.09:291][352]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.05.04-17.08.09:291][352]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.05.04-17.08.09:291][352]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.05.04-17.08.09:291][352]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.05.04-17.08.09:291][352]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.05.04-17.08.09:291][352]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.05.04-17.08.09:291][352]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.05.04-17.08.09:291][352]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.05.04-17.08.09:291][352]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.05.04-17.08.09:291][352]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.05.04-17.08.09:292][352]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.05.04-17.08.09:404][352]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.05.04-17.08.09:404][352]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.05.04-17.08.09:404][352]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.05.04-17.08.09:405][352]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.05.04-17.08.09:405][352]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.05.04-17.08.09:406][352]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.05.04-17.08.09:406][352]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.05.04-17.08.09:406][352]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.05.04-17.08.09:406][352]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.05.04-17.08.09:406][352]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.05.04-17.08.09:406][352]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.05.04-17.08.09:406][352]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.05.04-17.08.09:406][352]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.05.04-17.08.09:406][352]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.05.04-17.08.09:406][352]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.05.04-17.08.09:406][352]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.05.04-17.08.09:406][352]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.05.04-17.08.09:406][352]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.05.04-17.08.09:406][352]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.05.04-17.08.09:406][352]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.05.04-17.08.09:406][352]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.05.04-17.08.09:639][352]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.05.04-17.08.09:639][352]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.05.04-17.08.09:639][352]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.05.04-17.08.09:639][352]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.05.04-17.08.09:639][352]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.05.04-17.08.09:639][352]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.05.04-17.08.09:639][352]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.05.04-17.08.09:639][352]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.05.04-17.08.09:639][352]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.05.04-17.08.09:639][352]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.05.04-17.08.09:639][352]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.05.04-17.08.09:639][352]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.05.04-17.08.09:639][352]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.05.04-17.08.09:639][352]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.05.04-17.08.09:639][352]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.05.04-17.08.09:639][352]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.05.04-17.08.09:640][352]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.05.04-17.08.09:640][352]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.05.04-17.08.09:640][352]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.05.04-17.08.09:640][352]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.05.04-17.08.09:640][352]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.05.04-17.08.09:640][352]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.05.04-17.08.09:640][352]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.05.04-17.08.09:640][352]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.05.04-17.08.09:640][352]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.05.04-17.08.09:640][352]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.05.04-17.08.09:640][352]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.05.04-17.08.09:741][352]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.05.04-17.08.09:741][352]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.05.04-17.08.09:743][352]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.05.04-17.08.09:743][352]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.05.04-17.08.09:743][352]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.05.04-17.08.09:743][352]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.05.04-17.08.09:743][352]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.05.04-17.08.09:743][352]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.05.04-17.08.09:743][352]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.05.04-17.08.09:743][352]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.05.04-17.08.09:743][352]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.05.04-17.08.09:743][352]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.05.04-17.08.09:743][352]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.05.04-17.08.09:743][352]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.05.04-17.08.09:743][352]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.05.04-17.08.09:743][352]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.05.04-17.08.09:743][352]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.05.04-17.08.09:748][352]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.05.04-17.08.09:748][352]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.05.04-17.08.09:748][352]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.05.04-17.08.09:748][352]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.05.04-17.08.09:748][352]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.05.04-17.08.09:748][352]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.05.04-17.08.09:748][352]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.05.04-17.08.09:748][352]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.05.04-17.08.09:748][352]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.05.04-17.08.09:748][352]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.05.04-17.08.09:751][352]LogDerivedDataCache: Shutdown
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.05.04-17.08.09:751][352]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.05.04-17.08.09:755][352]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.05.04-17.08.09:755][352]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.05.04-17.08.09:755][352]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.05.04-17.08.09:755][352]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.05.04-17.08.09:755][352]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.05.04-17.08.09:755][352]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.05.04-17.08.09:755][352]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.05.04-17.08.09:755][352]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.05.04-17.08.09:755][352]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.05.04-17.08.09:756][352]LogExit: Exiting.
+[2015.05.04-17.08.09:780][352]Log file closed, 05/04/15 10:08:09

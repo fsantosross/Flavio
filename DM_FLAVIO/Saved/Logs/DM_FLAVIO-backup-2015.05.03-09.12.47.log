@@ -1,0 +1,455 @@
+﻿Log file open, 05/02/15 23:20:42
+LogInit:Display: Running engine without a game
+LogInit:Display: Loading recent project file: ../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/DM_FLAVIO.uproject
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.05.03-06.20.42:090][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.05.03-06.20.42:147][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.05.03-06.20.42:162][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.05.03-06.20.42:176][  0]LogInit: Object subsystem initialized
+[2015.05.03-06.20.42:178][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.05.03-06.20.42:178][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/RossFamily/Desktop/DM_FLAVIO/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.03-06.20.42:178][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.05.03-06.20.42:178][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/RossFamily/Desktop/DM_FLAVIO/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.03-06.20.42:178][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.05.03-06.20.42:178][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/RossFamily/Desktop/DM_FLAVIO/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.03-06.20.42:179][  0]LogInit: Selected Device Profile: [Windows]
+[2015.05.03-06.20.42:179][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.05.03-06.20.42:189][  0]LogInit: Computer: ROSSFAMILY-PC
+[2015.05.03-06.20.42:189][  0]LogInit: User: RossFamily
+[2015.05.03-06.20.42:189][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.05.03-06.20.42:189][  0]LogInit: High frequency timer resolution =2.597658 MHz
+[2015.05.03-06.20.42:189][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx) Virtual=131072.0GB
+[2015.05.03-06.20.42:189][  0]LogMemory: Platform Memory Stats for Windows
+[2015.05.03-06.20.42:189][  0]LogMemory: Process Physical Memory: 46.05 MB used, 46.05 MB peak
+[2015.05.03-06.20.42:189][  0]LogMemory: Process Virtual Memory: 24.59 MB used, 24.59 MB peak
+[2015.05.03-06.20.42:189][  0]LogMemory: Physical Memory: 2791.63 MB used, 16375.09 MB total
+[2015.05.03-06.20.42:189][  0]LogMemory: Virtual Memory: 291.04 MB used, 134217728.00 MB total
+[2015.05.03-06.20.42:236][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 560  (Feature Level 11_0)
+[2015.05.03-06.20.42:236][  0]LogD3D11RHI: Adapter has 1994MB of dedicated video memory, 0MB of dedicated system memory, and 2047MB of shared system memory, 1 output[s]
+[2015.05.03-06.20.42:237][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.05.03-06.20.42:237][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.05.03-06.20.42:237][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.05.03-06.20.42:244][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.05.03-06.20.42:253][  0]LogD3D11RHI: Async texture creation enabled
+[2015.05.03-06.20.42:320][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.05.03-06.20.42:400][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.05.03-06.20.42:400][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.05.03-06.20.42:506][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.05.03-06.20.45:429][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.03-06.20.46:033][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.03-06.20.46:106][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.05.03-06.20.46:162][  0]LogDerivedDataCache: Loaded boot cache 0.06s 39MB C:/Users/RossFamily/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.03-06.20.46:162][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/RossFamily/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.05.03-06.20.46:162][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.05.03-06.20.46:162][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.05.03-06.20.46:320][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.05.03-06.20.46:332][  0]LogDerivedDataCache: Using Local data cache path C:/Users/RossFamily/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.05.03-06.20.46:702][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.05.03-06.20.46:702][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.05.03-06.20.47:185][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.05.03-06.20.47:272][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.05.03-06.20.48:258][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.05.03-06.20.48:470][  0]SourceControl: Info Source control is disabled
+[2015.05.03-06.20.48:470][  0]SourceControl: Info Source control is disabled
+[2015.05.03-06.20.48:470][  0]SourceControl: Info Source control is disabled
+[2015.05.03-06.20.48:470][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.03-06.20.48:471][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.05.03-06.20.48:480][  0]SourceControl: Info Source control is disabled
+[2015.05.03-06.20.48:682][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.05.03-06.20.48:682][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.05.03-06.20.48:784][  0]LogEngine: Initializing Engine...
+[2015.05.03-06.20.50:988][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster X-Fi Xtreme Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.05.03-06.20.51:003][  0]LogInit: FAudioDevice initialized.
+[2015.05.03-06.20.51:043][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.05.03-06.20.51:069][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/RossFamily/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.03-06.20.51:079][  0]LogInit: Texture streaming: Enabled
+[2015.05.03-06.20.51:190][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.05.03-06.20.51:190][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.03-06.20.51:190][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.03-06.20.51:191][  0]LogAnalytics: SetUserId 117c93b446678ee264e382b49ca91207|14919f3d0643489ba6ad3048feb4b89e|0e66297c-8f74-4f75-8a68-8a33cd42c3b8
+[2015.05.03-06.20.51:191][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.05.03-06.20.51:221][  0]LogInit: Transaction tracking system initialized
+[2015.05.03-06.20.51:413][  0]BlueprintLog: New page: Editor Load
+[2015.05.03-06.20.51:450][  0]LogAssetRegistry: FAssetRegistry took 0.0111 seconds to start up
+[2015.05.03-06.20.51:450][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.05.03-06.20.52:052][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.03-06.20.52:472][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.03-06.20.52:715][  0]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/Mobile/CreatingSigningCertAndProvisionTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.03-06.20.52:721][  0]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/Mobile/SettingUpAndroidTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.03-06.20.52:759][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.05.03-06.20.52:759][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.05.03-06.20.52:765][  0]LogConsoleResponse:Display: 
+[2015.05.03-06.20.52:929][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.05.03-06.20.53:080][  0]SourceControl: Info Source control is disabled
+[2015.05.03-06.20.53:081][  0]Cmd: MAP LOAD FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.03-06.20.53:081][  0]LightingResults: New page: Lighting Build
+[2015.05.03-06.20.53:094][  0]MapCheck: New page: Map Check
+[2015.05.03-06.20.53:094][  0]LightingResults: New page: Lighting Build
+[2015.05.03-06.20.53:103][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071C088BB00
+[2015.05.03-06.20.54:118][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.03-06.20.54:132][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.05.03-06.20.54:133][  0]Cmd: MAP CHECKDEP
+[2015.05.03-06.20.54:133][  0]MapCheck: New page: Minimal_Default - May 2, 2015, 4:20:54 PM
+[2015.05.03-06.20.54:246][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 112.704ms to complete.
+[2015.05.03-06.20.54:246][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.165
+[2015.05.03-06.20.54:396][  0]LogCollectionManager: Loaded 0 collections in 0.001428 seconds
+[2015.05.03-06.20.54:409][  0]LogContentBrowser: Native class hierarchy populated in 0.0133 seconds. Added 1696 classes and 261 folders.
+[2015.05.03-06.20.54:444][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0026 seconds. Added 1 classes and 2 folders.
+[2015.05.03-06.20.54:505][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.05.03-06.20.54:506][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.05.03-06.20.54:513][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.05.03-06.20.54:539][  0]LogLoad: Full Startup: 14.41 seconds (BP compile: 0.11 seconds)
+[2015.05.03-06.20.54:576][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2015.05.03-06.20.54:786][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.05.03-06.20.55:200][  7]LogAssetRegistry: Asset discovery search completed in 3.7621 seconds
+[2015.05.03-06.21.59:501][769]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2015.05.03-06.21.59:569][769]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/SubEditors/PersonaAnimEditorTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.03-06.22.35:573][815]LogRenderer:Warning: Reallocating scene render targets to support 1208x896 (Frame:2647).
+[2015.05.03-06.22.35:573][815]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.05.03-06.25.10:498][523]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.05.03-06.28.49:301][266]BlueprintLog: New page: Compile CharacterAnimBP
+[2015.05.03-06.28.49:388][266]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071D55BB240
+[2015.05.03-06.28.49:389][266]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071D5780180
+[2015.05.03-06.28.49:402][266]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2015.05.03-06.28.49:402][266]BlueprintEditorCompileResults: Info [0489.28] Compile of CharacterAnimBP successful! [in 101 ms]
+[2015.05.03-06.29.37:008][573]BlueprintLog: New page: Compile CharacterAnimBP
+[2015.05.03-06.29.37:159][573]BlueprintEditorCompileResults: Info [0537.03] Compile of CharacterAnimBP successful! [in 150 ms]
+[2015.05.03-06.30.45:284][  1]LogUnrealMath: Expression Error : No value recognized
+[2015.05.03-06.30.45:284][  1]LogUnrealMath: Expression Error : Error in expression
+[2015.05.03-06.30.45:284][  1]LogUnrealMath: Expression Error : No value recognized
+[2015.05.03-06.30.45:284][  1]LogUnrealMath: Expression Error : Error in expression
+[2015.05.03-06.30.55:066][  0]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.027
+[2015.05.03-06.30.55:108][  0]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/CharacterAnimBP] ([1] browsable assets)...
+[2015.05.03-06.30.55:161][  0]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Character/CharacterAnimBP.CharacterAnimBP]
+[2015.05.03-06.30.55:161][  0]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/CharacterAnimBP]
+[2015.05.03-06.30.55:663][  0]LogSavePackage: Save=490.359406ms
+[2015.05.03-06.30.55:663][  0]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/CharacterAnimBP_Auto14F6A73B64DFE3A27CD8CD8A8178DA279.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/Autosaves/Game/Character/CharacterAnimBP_Auto1.uasset'
+[2015.05.03-06.30.55:671][  0]LogFileHelpers: Auto-saving content packages took 0.605
+[2015.05.03-06.31.07:586][858]BlueprintLog: New page: Compile CharacterAnimBP
+[2015.05.03-06.31.07:678][858]BlueprintEditorCompileResults: Info [0627.55] Compile of CharacterAnimBP successful! [in 91 ms]
+[2015.05.03-06.40.55:820][113]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.036
+[2015.05.03-06.40.55:857][113]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/CharacterAnimBP] ([1] browsable assets)...
+[2015.05.03-06.40.55:900][113]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Character/CharacterAnimBP.CharacterAnimBP]
+[2015.05.03-06.40.55:900][113]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/CharacterAnimBP]
+[2015.05.03-06.40.56:434][113]LogSavePackage: Save=523.556213ms
+[2015.05.03-06.40.56:435][113]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/CharacterAnimBP_Auto23CFEE14643719F9AD4A4AFA3F2301952.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/Autosaves/Game/Character/CharacterAnimBP_Auto2.uasset'
+[2015.05.03-06.40.56:443][113]LogFileHelpers: Auto-saving content packages took 0.624
+[2015.05.03-06.43.08:727][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/CharacterAnimBP" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/CharacterAnimBP.uasset" SILENT=true
+[2015.05.03-06.43.09:181][387]LogSavePackage: Save=449.798248ms
+[2015.05.03-06.43.09:181][387]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/CharacterAnimBPDE7BCFA74A21CE6F3A4A7DAED5D16931.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/CharacterAnimBP.uasset'
+[2015.05.03-06.50.56:556][803]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.031
+[2015.05.03-06.50.56:589][803]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/CharacterAnimBP] ([1] browsable assets)...
+[2015.05.03-06.50.56:635][803]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Character/CharacterAnimBP.CharacterAnimBP]
+[2015.05.03-06.50.56:635][803]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/CharacterAnimBP]
+[2015.05.03-06.50.57:186][803]LogSavePackage: Save=539.605286ms
+[2015.05.03-06.50.57:187][803]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/CharacterAnimBP_Auto3B65A40DC4DADC309C015B2A84E937573.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/Autosaves/Game/Character/CharacterAnimBP_Auto3.uasset'
+[2015.05.03-06.50.57:250][803]LogFileHelpers: Auto-saving content packages took 0.694
+[2015.05.03-06.51.07:276][867]BlueprintLog: New page: Compile CharacterAnimBP
+[2015.05.03-06.51.07:329][867]LogBlueprint:Warning: [compiler] Warning  JumpStart to JumpLoop  will never be taken, please connect something to  Can Enter Transition 
+[2015.05.03-06.51.07:430][867]LogBlueprint:Warning: [compiler] Warning [1827.30] Compile of CharacterAnimBP successful, but with 1 Warning(s) [in 153 ms]
+[2015.05.03-06.51.07:430][867]BlueprintEditorCompileResults:Warning: Warning  JumpStart to JumpLoop  will never be taken, please connect something to  Can Enter Transition 
+[2015.05.03-06.51.07:430][867]BlueprintEditorCompileResults:Warning: Warning [1827.30] Compile of CharacterAnimBP successful, but with 1 Warning(s) [in 153 ms]
+[2015.05.03-06.51.12:154][368]BlueprintLog: New page: Compile CharacterAnimBP
+[2015.05.03-06.51.12:209][368]LogBlueprint:Warning: [compiler] Warning  JumpStart to JumpLoop  will never be taken, please connect something to  Can Enter Transition 
+[2015.05.03-06.51.12:309][368]LogBlueprint:Warning: [compiler] Warning [1832.18] Compile of CharacterAnimBP successful, but with 1 Warning(s) [in 154 ms]
+[2015.05.03-06.51.12:309][368]BlueprintEditorCompileResults:Warning: Warning  JumpStart to JumpLoop  will never be taken, please connect something to  Can Enter Transition 
+[2015.05.03-06.51.12:309][368]BlueprintEditorCompileResults:Warning: Warning [1832.18] Compile of CharacterAnimBP successful, but with 1 Warning(s) [in 154 ms]
+[2015.05.03-06.51.18:888][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/CharacterAnimBP" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/CharacterAnimBP.uasset" SILENT=true
+[2015.05.03-06.51.19:364][ 86]LogSavePackage: Save=469.324677ms
+[2015.05.03-06.51.19:364][ 86]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/CharacterAnimBPE9F6AA2848035D79F69830A2EB97C925.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/CharacterAnimBP.uasset'
+[2015.05.03-06.51.20:490][208]BlueprintLog: New page: Compile CharacterAnimBP
+[2015.05.03-06.51.20:547][208]LogBlueprint:Warning: [compiler] Warning  JumpStart to JumpLoop  will never be taken, please connect something to  Can Enter Transition 
+[2015.05.03-06.51.20:655][208]LogBlueprint:Warning: [compiler] Warning [1840.53] Compile of CharacterAnimBP successful, but with 1 Warning(s) [in 164 ms]
+[2015.05.03-06.51.20:655][208]BlueprintEditorCompileResults:Warning: Warning  JumpStart to JumpLoop  will never be taken, please connect something to  Can Enter Transition 
+[2015.05.03-06.51.20:655][208]BlueprintEditorCompileResults:Warning: Warning [1840.53] Compile of CharacterAnimBP successful, but with 1 Warning(s) [in 164 ms]
+[2015.05.03-06.51.34:166][101]BlueprintLog: New page: Compile CharacterAnimBP
+[2015.05.03-06.51.34:221][101]LogBlueprint:Warning: [compiler] Warning  JumpStart to JumpLoop  will never be taken, please connect something to  Can Enter Transition 
+[2015.05.03-06.51.34:322][101]LogBlueprint:Warning: [compiler] Warning [1854.20] Compile of CharacterAnimBP successful, but with 1 Warning(s) [in 155 ms]
+[2015.05.03-06.51.34:322][101]BlueprintEditorCompileResults:Warning: Warning  JumpStart to JumpLoop  will never be taken, please connect something to  Can Enter Transition 
+[2015.05.03-06.51.34:322][101]BlueprintEditorCompileResults:Warning: Warning [1854.20] Compile of CharacterAnimBP successful, but with 1 Warning(s) [in 155 ms]
+[2015.05.03-06.51.59:010][944]BlueprintLog: New page: Compile CharacterAnimBP
+[2015.05.03-06.51.59:067][944]LogBlueprint:Warning: [compiler] Warning  JumpStart to JumpLoop  will never be taken, please connect something to  Can Enter Transition 
+[2015.05.03-06.51.59:169][944]LogBlueprint:Warning: [compiler] Warning [1879.04] Compile of CharacterAnimBP successful, but with 1 Warning(s) [in 158 ms]
+[2015.05.03-06.51.59:169][944]BlueprintEditorCompileResults:Warning: Warning  JumpStart to JumpLoop  will never be taken, please connect something to  Can Enter Transition 
+[2015.05.03-06.51.59:169][944]BlueprintEditorCompileResults:Warning: Warning [1879.04] Compile of CharacterAnimBP successful, but with 1 Warning(s) [in 158 ms]
+[2015.05.03-06.51.59:385][967]BlueprintLog: New page: Compile CharacterAnimBP
+[2015.05.03-06.51.59:440][967]LogBlueprint:Warning: [compiler] Warning  JumpStart to JumpLoop  will never be taken, please connect something to  Can Enter Transition 
+[2015.05.03-06.51.59:539][967]LogBlueprint:Warning: [compiler] Warning [1879.41] Compile of CharacterAnimBP successful, but with 1 Warning(s) [in 154 ms]
+[2015.05.03-06.51.59:539][967]BlueprintEditorCompileResults:Warning: Warning  JumpStart to JumpLoop  will never be taken, please connect something to  Can Enter Transition 
+[2015.05.03-06.51.59:540][967]BlueprintEditorCompileResults:Warning: Warning [1879.41] Compile of CharacterAnimBP successful, but with 1 Warning(s) [in 154 ms]
+[2015.05.03-06.51.59:897][  7]BlueprintLog: New page: Compile CharacterAnimBP
+[2015.05.03-06.51.59:952][  7]LogBlueprint:Warning: [compiler] Warning  JumpStart to JumpLoop  will never be taken, please connect something to  Can Enter Transition 
+[2015.05.03-06.52.00:054][  7]LogBlueprint:Warning: [compiler] Warning [1879.93] Compile of CharacterAnimBP successful, but with 1 Warning(s) [in 156 ms]
+[2015.05.03-06.52.00:054][  7]BlueprintEditorCompileResults:Warning: Warning  JumpStart to JumpLoop  will never be taken, please connect something to  Can Enter Transition 
+[2015.05.03-06.52.00:054][  7]BlueprintEditorCompileResults:Warning: Warning [1879.93] Compile of CharacterAnimBP successful, but with 1 Warning(s) [in 156 ms]
+[2015.05.03-06.52.02:770][302]BlueprintLog: New page: Compile CharacterAnimBP
+[2015.05.03-06.52.02:824][302]LogBlueprint:Warning: [compiler] Warning  JumpStart to JumpLoop  will never be taken, please connect something to  Can Enter Transition 
+[2015.05.03-06.52.02:926][302]LogBlueprint:Warning: [compiler] Warning [1882.80] Compile of CharacterAnimBP successful, but with 1 Warning(s) [in 155 ms]
+[2015.05.03-06.52.02:926][302]BlueprintEditorCompileResults:Warning: Warning  JumpStart to JumpLoop  will never be taken, please connect something to  Can Enter Transition 
+[2015.05.03-06.52.02:926][302]BlueprintEditorCompileResults:Warning: Warning [1882.80] Compile of CharacterAnimBP successful, but with 1 Warning(s) [in 155 ms]
+[2015.05.03-06.52.10:421][131]BlueprintLog: New page: Compile CharacterAnimBP
+[2015.05.03-06.52.10:476][131]LogBlueprint:Warning: [compiler] Warning  JumpStart to JumpLoop  will never be taken, please connect something to  Can Enter Transition 
+[2015.05.03-06.52.10:576][131]LogBlueprint:Warning: [compiler] Warning [1890.45] Compile of CharacterAnimBP successful, but with 1 Warning(s) [in 154 ms]
+[2015.05.03-06.52.10:576][131]BlueprintEditorCompileResults:Warning: Warning  JumpStart to JumpLoop  will never be taken, please connect something to  Can Enter Transition 
+[2015.05.03-06.52.10:576][131]BlueprintEditorCompileResults:Warning: Warning [1890.45] Compile of CharacterAnimBP successful, but with 1 Warning(s) [in 154 ms]
+[2015.05.03-06.52.24:440][638]BlueprintLog: New page: Compile CharacterAnimBP
+[2015.05.03-06.52.24:495][638]LogBlueprint:Warning: [compiler] Warning  JumpStart to JumpLoop  will never be taken, please connect something to  Can Enter Transition 
+[2015.05.03-06.52.24:900][638]LogBlueprint:Warning: [compiler] Warning [1904.77] Compile of CharacterAnimBP successful, but with 1 Warning(s) [in 459 ms]
+[2015.05.03-06.52.24:901][638]BlueprintEditorCompileResults:Warning: Warning  JumpStart to JumpLoop  will never be taken, please connect something to  Can Enter Transition 
+[2015.05.03-06.52.24:901][638]BlueprintEditorCompileResults:Warning: Warning [1904.77] Compile of CharacterAnimBP successful, but with 1 Warning(s) [in 459 ms]
+[2015.05.03-06.53.28:209][ 82]BlueprintLog: New page: Compile CharacterAnimBP
+[2015.05.03-06.53.28:262][ 82]LogBlueprint:Warning: [compiler] Warning  JumpStart to JumpLoop  will never be taken, please connect something to  Can Enter Transition 
+[2015.05.03-06.53.28:263][ 82]LogBlueprint:Warning: [compiler] Warning  JumpEnd to Idle_Walk_Run  will never be taken, please connect something to  Can Enter Transition 
+[2015.05.03-06.53.28:363][ 82]LogBlueprint:Warning: [compiler] Warning [1968.24] Compile of CharacterAnimBP successful, but with 2 Warning(s) [in 153 ms]
+[2015.05.03-06.53.28:363][ 82]BlueprintEditorCompileResults:Warning: Warning  JumpStart to JumpLoop  will never be taken, please connect something to  Can Enter Transition 
+[2015.05.03-06.53.28:363][ 82]BlueprintEditorCompileResults:Warning: Warning  JumpEnd to Idle_Walk_Run  will never be taken, please connect something to  Can Enter Transition 
+[2015.05.03-06.53.28:363][ 82]BlueprintEditorCompileResults:Warning: Warning [1968.24] Compile of CharacterAnimBP successful, but with 2 Warning(s) [in 153 ms]
+[2015.05.03-06.53.38:161][170]BlueprintLog: New page: Compile CharacterAnimBP
+[2015.05.03-06.53.38:216][170]LogBlueprint:Warning: [compiler] Warning  JumpStart to JumpLoop  will never be taken, please connect something to  Can Enter Transition 
+[2015.05.03-06.53.38:316][170]LogBlueprint:Warning: [compiler] Warning [1978.19] Compile of CharacterAnimBP successful, but with 1 Warning(s) [in 155 ms]
+[2015.05.03-06.53.38:316][170]BlueprintEditorCompileResults:Warning: Warning  JumpStart to JumpLoop  will never be taken, please connect something to  Can Enter Transition 
+[2015.05.03-06.53.38:317][170]BlueprintEditorCompileResults:Warning: Warning [1978.19] Compile of CharacterAnimBP successful, but with 1 Warning(s) [in 155 ms]
+[2015.05.03-06.53.44:476][852]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.05.03-06.53.44:476][852]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2015.05.03-06.54.04:414][781]BlueprintLog: New page: Compile CharacterAnimBP
+[2015.05.03-06.54.04:577][781]BlueprintEditorCompileResults: Info [2004.45] Compile of CharacterAnimBP successful! [in 163 ms]
+[2015.05.03-06.54.40:195][801]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.05.03-06.54.52:030][901]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071D47182C0
+[2015.05.03-06.54.52:030][901]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071D2FDA660
+[2015.05.03-06.54.52:031][901]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071D5D1AAC0
+[2015.05.03-06.54.52:031][901]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071D5D3CAE0
+[2015.05.03-06.54.52:032][901]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071D5780860
+[2015.05.03-06.54.52:124][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/CharacterAnimBP" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/CharacterAnimBP.uasset" SILENT=true
+[2015.05.03-06.54.52:607][901]LogSavePackage: Save=478.021729ms
+[2015.05.03-06.54.52:607][901]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/CharacterAnimBPC36882CE48DFD8B02A4C5CB098C234A0.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/CharacterAnimBP.uasset'
+[2015.05.03-06.54.54:279][982]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_6) - call TermArticulated first.
+[2015.05.03-06.55.27:411][256]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.05.03-07.00.10:930][587]BlueprintLog: New page: Compile CharacterAnimBP
+[2015.05.03-07.00.11:188][587]BlueprintEditorCompileResults: Info [2371.06] Compile of CharacterAnimBP successful! [in 256 ms]
+[2015.05.03-07.00.28:005][313]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.05.03-07.00.37:028][154]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.05.03-07.00.57:737][699]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071E3F21080
+[2015.05.03-07.00.57:737][699]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071E47B3BA0
+[2015.05.03-07.00.57:742][699]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.033
+[2015.05.03-07.00.57:781][699]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/CharacterAnimBP] ([1] browsable assets)...
+[2015.05.03-07.00.57:821][699]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Character/CharacterAnimBP.CharacterAnimBP]
+[2015.05.03-07.00.57:821][699]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/CharacterAnimBP]
+[2015.05.03-07.00.58:408][699]LogSavePackage: Save=576.315674ms
+[2015.05.03-07.00.58:412][699]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/CharacterAnimBP_Auto4BC38039C41ADFF40030050B4E552BC22.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/Autosaves/Game/Character/CharacterAnimBP_Auto4.uasset'
+[2015.05.03-07.00.58:470][699]LogFileHelpers: Auto-saving content packages took 0.726
+[2015.05.03-07.02.07:139][193]LogRenderer:Warning: Reallocating scene render targets to support 1208x920 (Frame:312997).
+[2015.05.03-07.02.07:139][193]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.05.03-07.02.09:439][420]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.05.03-07.03.04:968][954]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.05.03-07.03.24:861][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/CharacterAnimBP" FILE="../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/CharacterAnimBP.uasset" SILENT=true
+[2015.05.03-07.03.24:952][ 74]LogSavePackage: Save=86.673073ms
+[2015.05.03-07.03.24:952][ 74]LogSavePackage: Moving '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Saved/CharacterAnimBPA27221F94750A31C78BA878B9933B63E.tmp' to '../../../../../../Users/RossFamily/Desktop/DM_FLAVIO/Content/Character/CharacterAnimBP.uasset'
+[2015.05.03-07.03.28:218][455]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071D744AC00
+[2015.05.03-07.03.28:219][455]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071CF6C4A40
+[2015.05.03-07.03.28:219][455]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071CE2FA3E0
+[2015.05.03-07.03.28:219][455]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071DFFBE5C0
+[2015.05.03-07.03.28:933][456]Cmd: QUIT_EDITOR
+[2015.05.03-07.03.29:248][456]LogExit: Preparing to exit.
+[2015.05.03-07.03.29:517][456]LogExit: Editor shut down
+[2015.05.03-07.03.29:517][456]LogExit: Transaction tracking system shut down
+[2015.05.03-07.03.29:518][456]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071D349BD80
+[2015.05.03-07.03.29:519][456]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071C83AC900
+[2015.05.03-07.03.29:519][456]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071D54EB600
+[2015.05.03-07.03.29:519][456]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071DB9C6840
+[2015.05.03-07.03.29:521][456]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071CF61DF80
+[2015.05.03-07.03.29:521][456]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071D55B8CC0
+[2015.05.03-07.03.29:522][456]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071CF877060
+[2015.05.03-07.03.29:522][456]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071D5D3E3E0
+[2015.05.03-07.03.29:522][456]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071CFBCA980
+[2015.05.03-07.03.29:601][456]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071CF80B4C0
+[2015.05.03-07.03.29:601][456]LogExit: Object subsystem successfully closed.
+[2015.05.03-07.03.29:664][456]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.05.03-07.03.29:664][456]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.05.03-07.03.29:664][456]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.05.03-07.03.29:664][456]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.05.03-07.03.29:664][456]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.05.03-07.03.29:664][456]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.05.03-07.03.29:664][456]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.05.03-07.03.29:664][456]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.05.03-07.03.29:664][456]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.05.03-07.03.29:664][456]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.05.03-07.03.29:664][456]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.05.03-07.03.29:664][456]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.05.03-07.03.29:664][456]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.05.03-07.03.29:664][456]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.05.03-07.03.29:664][456]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.05.03-07.03.29:664][456]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.05.03-07.03.29:664][456]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.05.03-07.03.29:664][456]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.05.03-07.03.29:664][456]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.05.03-07.03.29:664][456]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.05.03-07.03.29:664][456]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.05.03-07.03.29:665][456]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.05.03-07.03.29:665][456]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.05.03-07.03.29:665][456]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.05.03-07.03.29:665][456]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.05.03-07.03.29:665][456]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.05.03-07.03.29:665][456]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.05.03-07.03.29:665][456]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.05.03-07.03.29:665][456]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.05.03-07.03.29:665][456]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.05.03-07.03.29:665][456]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.05.03-07.03.29:665][456]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.05.03-07.03.29:703][456]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.05.03-07.03.29:703][456]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.05.03-07.03.29:703][456]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.05.03-07.03.29:703][456]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.05.03-07.03.29:703][456]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.05.03-07.03.29:703][456]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.05.03-07.03.29:703][456]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.05.03-07.03.29:703][456]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.05.03-07.03.29:703][456]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.05.03-07.03.29:703][456]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.05.03-07.03.29:703][456]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.05.03-07.03.29:703][456]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.05.03-07.03.29:703][456]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.05.03-07.03.29:703][456]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.05.03-07.03.29:703][456]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.05.03-07.03.29:703][456]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.05.03-07.03.29:703][456]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.05.03-07.03.29:703][456]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.05.03-07.03.29:704][456]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.05.03-07.03.29:766][456]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.05.03-07.03.29:766][456]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.05.03-07.03.29:766][456]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.05.03-07.03.29:767][456]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.05.03-07.03.29:767][456]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.05.03-07.03.29:767][456]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.05.03-07.03.29:767][456]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.05.03-07.03.29:767][456]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.05.03-07.03.29:767][456]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.05.03-07.03.29:767][456]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.05.03-07.03.29:767][456]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.05.03-07.03.29:767][456]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.05.03-07.03.29:767][456]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.05.03-07.03.29:767][456]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.05.03-07.03.29:767][456]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.05.03-07.03.29:767][456]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.05.03-07.03.29:767][456]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.05.03-07.03.29:767][456]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.05.03-07.03.29:767][456]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.05.03-07.03.29:767][456]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.05.03-07.03.29:767][456]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.05.03-07.03.29:858][456]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.05.03-07.03.29:858][456]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.05.03-07.03.29:858][456]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.05.03-07.03.29:858][456]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.05.03-07.03.29:858][456]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.05.03-07.03.29:858][456]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.05.03-07.03.29:858][456]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.05.03-07.03.29:858][456]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.05.03-07.03.29:858][456]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.05.03-07.03.29:858][456]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.05.03-07.03.29:858][456]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.05.03-07.03.29:858][456]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.05.03-07.03.29:858][456]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.05.03-07.03.29:858][456]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.05.03-07.03.29:858][456]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.05.03-07.03.29:859][456]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.05.03-07.03.29:859][456]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.05.03-07.03.29:859][456]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.05.03-07.03.29:859][456]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.05.03-07.03.29:859][456]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.05.03-07.03.29:859][456]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.05.03-07.03.29:859][456]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.05.03-07.03.29:859][456]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.05.03-07.03.29:859][456]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.05.03-07.03.29:859][456]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.05.03-07.03.29:859][456]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.05.03-07.03.29:859][456]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.05.03-07.03.29:961][456]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.05.03-07.03.29:961][456]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.05.03-07.03.29:963][456]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.05.03-07.03.29:963][456]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.05.03-07.03.29:964][456]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.05.03-07.03.29:964][456]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.05.03-07.03.29:964][456]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.05.03-07.03.29:964][456]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.05.03-07.03.29:964][456]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.05.03-07.03.29:964][456]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.05.03-07.03.29:964][456]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.05.03-07.03.29:964][456]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.05.03-07.03.29:964][456]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.05.03-07.03.29:964][456]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.05.03-07.03.29:964][456]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.05.03-07.03.29:964][456]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.05.03-07.03.29:964][456]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.05.03-07.03.29:968][456]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.05.03-07.03.29:968][456]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.05.03-07.03.29:969][456]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.05.03-07.03.29:969][456]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.05.03-07.03.29:969][456]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.05.03-07.03.29:969][456]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.05.03-07.03.29:969][456]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.05.03-07.03.29:969][456]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.05.03-07.03.29:969][456]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.05.03-07.03.29:969][456]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.05.03-07.03.30:045][456]LogDerivedDataCache: Shutdown
+[2015.05.03-07.03.30:045][456]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.05.03-07.03.30:045][456]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.05.03-07.03.30:045][456]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.05.03-07.03.30:045][456]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.05.03-07.03.30:045][456]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.05.03-07.03.30:045][456]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.05.03-07.03.30:045][456]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.05.03-07.03.30:045][456]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.05.03-07.03.30:045][456]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.05.03-07.03.30:045][456]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.05.03-07.03.30:045][456]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.05.03-07.03.30:045][456]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.05.03-07.03.30:045][456]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.05.03-07.03.30:045][456]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.05.03-07.03.30:045][456]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.05.03-07.03.30:045][456]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.05.03-07.03.30:045][456]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.05.03-07.03.30:045][456]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.05.03-07.03.30:045][456]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.05.03-07.03.30:045][456]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.05.03-07.03.30:045][456]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.05.03-07.03.30:045][456]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.05.03-07.03.30:045][456]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.05.03-07.03.30:045][456]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.05.03-07.03.30:045][456]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.05.03-07.03.30:045][456]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.05.03-07.03.30:045][456]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.05.03-07.03.30:045][456]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.05.03-07.03.30:045][456]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.05.03-07.03.30:045][456]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.05.03-07.03.30:045][456]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.05.03-07.03.30:045][456]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.05.03-07.03.30:045][456]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.05.03-07.03.30:045][456]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.05.03-07.03.30:046][456]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.05.03-07.03.30:046][456]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.05.03-07.03.30:046][456]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.05.03-07.03.30:046][456]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.05.03-07.03.30:046][456]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.05.03-07.03.30:046][456]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.05.03-07.03.30:050][456]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.05.03-07.03.30:050][456]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.05.03-07.03.30:050][456]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.05.03-07.03.30:050][456]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.05.03-07.03.30:050][456]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.05.03-07.03.30:050][456]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.05.03-07.03.30:050][456]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.05.03-07.03.30:050][456]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.05.03-07.03.30:050][456]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.05.03-07.03.30:051][456]LogExit: Exiting.
+[2015.05.03-07.03.30:057][456]Log file closed, 05/03/15 00:03:30
